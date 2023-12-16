@@ -1,0 +1,39 @@
+[System]
+Name='model'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=5
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='x'
+Range=[-1 1]
+NumMFs=5
+MF1='bn':'gaussmf',[0.348395269097738 -1]
+MF2='n':'gaussmf',[0.2123 -0.5]
+MF3='z':'gaussmf',[0.2123 0]
+MF4='p':'gaussmf',[0.2123 0.5]
+MF5='bp':'gaussmf',[0.2123 1]
+
+[Output1]
+Name='output1'
+Range=[0 4]
+NumMFs=5
+MF1='0':'trimf',[0 0 0]
+MF2='0.25':'trimf',[1 1 1]
+MF3='1':'trimf',[4 4 4]
+MF4='1.44':'trimf',[5.76 5.76 5.76]
+MF5='4':'trimf',[16 16 16]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
+4, 4 (1) : 1
+5, 5 (1) : 1
