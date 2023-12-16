@@ -13,3 +13,13 @@ Let's imagine that you have a smart lighting system in a café. The purpose of t
 For example, using the trapezoidal membership function, you can determine that from 18:00 to 23:00 (the café's peak hours) the lighting should be at its maximum level. The values of the membership function during this time range will tend to 1, which means full light intensity. Outside of these hours, the value of the accessory function will gradually decrease, signaling the need to reduce the light intensity.
 
 In this way, the trapezoidal membership function helps to automate the lighting control process, making it more efficient and convenient for visitors and cafe staff.
+
+# Screenshots
+
+## Surface Viewer
+
+![Surface Viewer](view.png)
+
+## Rule Editor
+
+![Rule Editor](rules.png)
