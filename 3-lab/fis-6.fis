@@ -1,0 +1,2012 @@
+[System]
+Name='fis-6'
+Type='sugeno'
+Version=2.0
+NumInputs=6
+NumOutputs=1
+NumRules=972
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[281094 1809231]
+NumMFs=4
+MF1='in1mf1':'gaussmf',[216313.344654455 281094]
+MF2='in1mf2':'gaussmf',[216313.344654455 790473]
+MF3='in1mf3':'gaussmf',[216313.344654455 1299852]
+MF4='in1mf4':'gaussmf',[216313.344654455 1809231]
+
+[Input2]
+Name='input2'
+Range=[281094 1809231]
+NumMFs=3
+MF1='in2mf1':'gaussmf',[324470.016981683 281094]
+MF2='in2mf2':'gaussmf',[324470.016981683 1045162.5]
+MF3='in2mf3':'gaussmf',[324470.016981683 1809231]
+
+[Input3]
+Name='input3'
+Range=[281094 1867743]
+NumMFs=3
+MF1='in3mf1':'gaussmf',[336893.896276296 281094]
+MF2='in3mf2':'gaussmf',[336893.896276296 1074418.5]
+MF3='in3mf3':'gaussmf',[336893.896276296 1867743]
+
+[Input4]
+Name='input4'
+Range=[281094 1867743]
+NumMFs=3
+MF1='in4mf1':'gaussmf',[336893.896276296 281094]
+MF2='in4mf2':'gaussmf',[336893.896276296 1074418.5]
+MF3='in4mf3':'gaussmf',[336893.896276296 1867743]
+
+[Input5]
+Name='input5'
+Range=[281094 1867743]
+NumMFs=3
+MF1='in5mf1':'gaussmf',[336893.896276296 281094]
+MF2='in5mf2':'gaussmf',[336893.896276296 1074418.5]
+MF3='in5mf3':'gaussmf',[336893.896276296 1867743]
+
+[Input6]
+Name='input6'
+Range=[281094 1867743]
+NumMFs=3
+MF1='in6mf1':'gaussmf',[336893.896276296 281094]
+MF2='in6mf2':'gaussmf',[336893.896276296 1074418.5]
+MF3='in6mf3':'gaussmf',[336893.896276296 1867743]
+
+[Output1]
+Name='output'
+Range=[281094 1867743]
+NumMFs=972
+MF1='out1mf1':'linear',[0 0 0 0 0 0 0]
+MF2='out1mf2':'linear',[0 0 0 0 0 0 0]
+MF3='out1mf3':'linear',[0 0 0 0 0 0 0]
+MF4='out1mf4':'linear',[0 0 0 0 0 0 0]
+MF5='out1mf5':'linear',[0 0 0 0 0 0 0]
+MF6='out1mf6':'linear',[0 0 0 0 0 0 0]
+MF7='out1mf7':'linear',[0 0 0 0 0 0 0]
+MF8='out1mf8':'linear',[0 0 0 0 0 0 0]
+MF9='out1mf9':'linear',[0 0 0 0 0 0 0]
+MF10='out1mf10':'linear',[0 0 0 0 0 0 0]
+MF11='out1mf11':'linear',[0 0 0 0 0 0 0]
+MF12='out1mf12':'linear',[0 0 0 0 0 0 0]
+MF13='out1mf13':'linear',[0 0 0 0 0 0 0]
+MF14='out1mf14':'linear',[0 0 0 0 0 0 0]
+MF15='out1mf15':'linear',[0 0 0 0 0 0 0]
+MF16='out1mf16':'linear',[0 0 0 0 0 0 0]
+MF17='out1mf17':'linear',[0 0 0 0 0 0 0]
+MF18='out1mf18':'linear',[0 0 0 0 0 0 0]
+MF19='out1mf19':'linear',[0 0 0 0 0 0 0]
+MF20='out1mf20':'linear',[0 0 0 0 0 0 0]
+MF21='out1mf21':'linear',[0 0 0 0 0 0 0]
+MF22='out1mf22':'linear',[0 0 0 0 0 0 0]
+MF23='out1mf23':'linear',[0 0 0 0 0 0 0]
+MF24='out1mf24':'linear',[0 0 0 0 0 0 0]
+MF25='out1mf25':'linear',[0 0 0 0 0 0 0]
+MF26='out1mf26':'linear',[0 0 0 0 0 0 0]
+MF27='out1mf27':'linear',[0 0 0 0 0 0 0]
+MF28='out1mf28':'linear',[0 0 0 0 0 0 0]
+MF29='out1mf29':'linear',[0 0 0 0 0 0 0]
+MF30='out1mf30':'linear',[0 0 0 0 0 0 0]
+MF31='out1mf31':'linear',[0 0 0 0 0 0 0]
+MF32='out1mf32':'linear',[0 0 0 0 0 0 0]
+MF33='out1mf33':'linear',[0 0 0 0 0 0 0]
+MF34='out1mf34':'linear',[0 0 0 0 0 0 0]
+MF35='out1mf35':'linear',[0 0 0 0 0 0 0]
+MF36='out1mf36':'linear',[0 0 0 0 0 0 0]
+MF37='out1mf37':'linear',[0 0 0 0 0 0 0]
+MF38='out1mf38':'linear',[0 0 0 0 0 0 0]
+MF39='out1mf39':'linear',[0 0 0 0 0 0 0]
+MF40='out1mf40':'linear',[0 0 0 0 0 0 0]
+MF41='out1mf41':'linear',[0 0 0 0 0 0 0]
+MF42='out1mf42':'linear',[0 0 0 0 0 0 0]
+MF43='out1mf43':'linear',[0 0 0 0 0 0 0]
+MF44='out1mf44':'linear',[0 0 0 0 0 0 0]
+MF45='out1mf45':'linear',[0 0 0 0 0 0 0]
+MF46='out1mf46':'linear',[0 0 0 0 0 0 0]
+MF47='out1mf47':'linear',[0 0 0 0 0 0 0]
+MF48='out1mf48':'linear',[0 0 0 0 0 0 0]
+MF49='out1mf49':'linear',[0 0 0 0 0 0 0]
+MF50='out1mf50':'linear',[0 0 0 0 0 0 0]
+MF51='out1mf51':'linear',[0 0 0 0 0 0 0]
+MF52='out1mf52':'linear',[0 0 0 0 0 0 0]
+MF53='out1mf53':'linear',[0 0 0 0 0 0 0]
+MF54='out1mf54':'linear',[0 0 0 0 0 0 0]
+MF55='out1mf55':'linear',[0 0 0 0 0 0 0]
+MF56='out1mf56':'linear',[0 0 0 0 0 0 0]
+MF57='out1mf57':'linear',[0 0 0 0 0 0 0]
+MF58='out1mf58':'linear',[0 0 0 0 0 0 0]
+MF59='out1mf59':'linear',[0 0 0 0 0 0 0]
+MF60='out1mf60':'linear',[0 0 0 0 0 0 0]
+MF61='out1mf61':'linear',[0 0 0 0 0 0 0]
+MF62='out1mf62':'linear',[0 0 0 0 0 0 0]
+MF63='out1mf63':'linear',[0 0 0 0 0 0 0]
+MF64='out1mf64':'linear',[0 0 0 0 0 0 0]
+MF65='out1mf65':'linear',[0 0 0 0 0 0 0]
+MF66='out1mf66':'linear',[0 0 0 0 0 0 0]
+MF67='out1mf67':'linear',[0 0 0 0 0 0 0]
+MF68='out1mf68':'linear',[0 0 0 0 0 0 0]
+MF69='out1mf69':'linear',[0 0 0 0 0 0 0]
+MF70='out1mf70':'linear',[0 0 0 0 0 0 0]
+MF71='out1mf71':'linear',[0 0 0 0 0 0 0]
+MF72='out1mf72':'linear',[0 0 0 0 0 0 0]
+MF73='out1mf73':'linear',[0 0 0 0 0 0 0]
+MF74='out1mf74':'linear',[0 0 0 0 0 0 0]
+MF75='out1mf75':'linear',[0 0 0 0 0 0 0]
+MF76='out1mf76':'linear',[0 0 0 0 0 0 0]
+MF77='out1mf77':'linear',[0 0 0 0 0 0 0]
+MF78='out1mf78':'linear',[0 0 0 0 0 0 0]
+MF79='out1mf79':'linear',[0 0 0 0 0 0 0]
+MF80='out1mf80':'linear',[0 0 0 0 0 0 0]
+MF81='out1mf81':'linear',[0 0 0 0 0 0 0]
+MF82='out1mf82':'linear',[0 0 0 0 0 0 0]
+MF83='out1mf83':'linear',[0 0 0 0 0 0 0]
+MF84='out1mf84':'linear',[0 0 0 0 0 0 0]
+MF85='out1mf85':'linear',[0 0 0 0 0 0 0]
+MF86='out1mf86':'linear',[0 0 0 0 0 0 0]
+MF87='out1mf87':'linear',[0 0 0 0 0 0 0]
+MF88='out1mf88':'linear',[0 0 0 0 0 0 0]
+MF89='out1mf89':'linear',[0 0 0 0 0 0 0]
+MF90='out1mf90':'linear',[0 0 0 0 0 0 0]
+MF91='out1mf91':'linear',[0 0 0 0 0 0 0]
+MF92='out1mf92':'linear',[0 0 0 0 0 0 0]
+MF93='out1mf93':'linear',[0 0 0 0 0 0 0]
+MF94='out1mf94':'linear',[0 0 0 0 0 0 0]
+MF95='out1mf95':'linear',[0 0 0 0 0 0 0]
+MF96='out1mf96':'linear',[0 0 0 0 0 0 0]
+MF97='out1mf97':'linear',[0 0 0 0 0 0 0]
+MF98='out1mf98':'linear',[0 0 0 0 0 0 0]
+MF99='out1mf99':'linear',[0 0 0 0 0 0 0]
+MF100='out1mf100':'linear',[0 0 0 0 0 0 0]
+MF101='out1mf101':'linear',[0 0 0 0 0 0 0]
+MF102='out1mf102':'linear',[0 0 0 0 0 0 0]
+MF103='out1mf103':'linear',[0 0 0 0 0 0 0]
+MF104='out1mf104':'linear',[0 0 0 0 0 0 0]
+MF105='out1mf105':'linear',[0 0 0 0 0 0 0]
+MF106='out1mf106':'linear',[0 0 0 0 0 0 0]
+MF107='out1mf107':'linear',[0 0 0 0 0 0 0]
+MF108='out1mf108':'linear',[0 0 0 0 0 0 0]
+MF109='out1mf109':'linear',[0 0 0 0 0 0 0]
+MF110='out1mf110':'linear',[0 0 0 0 0 0 0]
+MF111='out1mf111':'linear',[0 0 0 0 0 0 0]
+MF112='out1mf112':'linear',[0 0 0 0 0 0 0]
+MF113='out1mf113':'linear',[0 0 0 0 0 0 0]
+MF114='out1mf114':'linear',[0 0 0 0 0 0 0]
+MF115='out1mf115':'linear',[0 0 0 0 0 0 0]
+MF116='out1mf116':'linear',[0 0 0 0 0 0 0]
+MF117='out1mf117':'linear',[0 0 0 0 0 0 0]
+MF118='out1mf118':'linear',[0 0 0 0 0 0 0]
+MF119='out1mf119':'linear',[0 0 0 0 0 0 0]
+MF120='out1mf120':'linear',[0 0 0 0 0 0 0]
+MF121='out1mf121':'linear',[0 0 0 0 0 0 0]
+MF122='out1mf122':'linear',[0 0 0 0 0 0 0]
+MF123='out1mf123':'linear',[0 0 0 0 0 0 0]
+MF124='out1mf124':'linear',[0 0 0 0 0 0 0]
+MF125='out1mf125':'linear',[0 0 0 0 0 0 0]
+MF126='out1mf126':'linear',[0 0 0 0 0 0 0]
+MF127='out1mf127':'linear',[0 0 0 0 0 0 0]
+MF128='out1mf128':'linear',[0 0 0 0 0 0 0]
+MF129='out1mf129':'linear',[0 0 0 0 0 0 0]
+MF130='out1mf130':'linear',[0 0 0 0 0 0 0]
+MF131='out1mf131':'linear',[0 0 0 0 0 0 0]
+MF132='out1mf132':'linear',[0 0 0 0 0 0 0]
+MF133='out1mf133':'linear',[0 0 0 0 0 0 0]
+MF134='out1mf134':'linear',[0 0 0 0 0 0 0]
+MF135='out1mf135':'linear',[0 0 0 0 0 0 0]
+MF136='out1mf136':'linear',[0 0 0 0 0 0 0]
+MF137='out1mf137':'linear',[0 0 0 0 0 0 0]
+MF138='out1mf138':'linear',[0 0 0 0 0 0 0]
+MF139='out1mf139':'linear',[0 0 0 0 0 0 0]
+MF140='out1mf140':'linear',[0 0 0 0 0 0 0]
+MF141='out1mf141':'linear',[0 0 0 0 0 0 0]
+MF142='out1mf142':'linear',[0 0 0 0 0 0 0]
+MF143='out1mf143':'linear',[0 0 0 0 0 0 0]
+MF144='out1mf144':'linear',[0 0 0 0 0 0 0]
+MF145='out1mf145':'linear',[0 0 0 0 0 0 0]
+MF146='out1mf146':'linear',[0 0 0 0 0 0 0]
+MF147='out1mf147':'linear',[0 0 0 0 0 0 0]
+MF148='out1mf148':'linear',[0 0 0 0 0 0 0]
+MF149='out1mf149':'linear',[0 0 0 0 0 0 0]
+MF150='out1mf150':'linear',[0 0 0 0 0 0 0]
+MF151='out1mf151':'linear',[0 0 0 0 0 0 0]
+MF152='out1mf152':'linear',[0 0 0 0 0 0 0]
+MF153='out1mf153':'linear',[0 0 0 0 0 0 0]
+MF154='out1mf154':'linear',[0 0 0 0 0 0 0]
+MF155='out1mf155':'linear',[0 0 0 0 0 0 0]
+MF156='out1mf156':'linear',[0 0 0 0 0 0 0]
+MF157='out1mf157':'linear',[0 0 0 0 0 0 0]
+MF158='out1mf158':'linear',[0 0 0 0 0 0 0]
+MF159='out1mf159':'linear',[0 0 0 0 0 0 0]
+MF160='out1mf160':'linear',[0 0 0 0 0 0 0]
+MF161='out1mf161':'linear',[0 0 0 0 0 0 0]
+MF162='out1mf162':'linear',[0 0 0 0 0 0 0]
+MF163='out1mf163':'linear',[0 0 0 0 0 0 0]
+MF164='out1mf164':'linear',[0 0 0 0 0 0 0]
+MF165='out1mf165':'linear',[0 0 0 0 0 0 0]
+MF166='out1mf166':'linear',[0 0 0 0 0 0 0]
+MF167='out1mf167':'linear',[0 0 0 0 0 0 0]
+MF168='out1mf168':'linear',[0 0 0 0 0 0 0]
+MF169='out1mf169':'linear',[0 0 0 0 0 0 0]
+MF170='out1mf170':'linear',[0 0 0 0 0 0 0]
+MF171='out1mf171':'linear',[0 0 0 0 0 0 0]
+MF172='out1mf172':'linear',[0 0 0 0 0 0 0]
+MF173='out1mf173':'linear',[0 0 0 0 0 0 0]
+MF174='out1mf174':'linear',[0 0 0 0 0 0 0]
+MF175='out1mf175':'linear',[0 0 0 0 0 0 0]
+MF176='out1mf176':'linear',[0 0 0 0 0 0 0]
+MF177='out1mf177':'linear',[0 0 0 0 0 0 0]
+MF178='out1mf178':'linear',[0 0 0 0 0 0 0]
+MF179='out1mf179':'linear',[0 0 0 0 0 0 0]
+MF180='out1mf180':'linear',[0 0 0 0 0 0 0]
+MF181='out1mf181':'linear',[0 0 0 0 0 0 0]
+MF182='out1mf182':'linear',[0 0 0 0 0 0 0]
+MF183='out1mf183':'linear',[0 0 0 0 0 0 0]
+MF184='out1mf184':'linear',[0 0 0 0 0 0 0]
+MF185='out1mf185':'linear',[0 0 0 0 0 0 0]
+MF186='out1mf186':'linear',[0 0 0 0 0 0 0]
+MF187='out1mf187':'linear',[0 0 0 0 0 0 0]
+MF188='out1mf188':'linear',[0 0 0 0 0 0 0]
+MF189='out1mf189':'linear',[0 0 0 0 0 0 0]
+MF190='out1mf190':'linear',[0 0 0 0 0 0 0]
+MF191='out1mf191':'linear',[0 0 0 0 0 0 0]
+MF192='out1mf192':'linear',[0 0 0 0 0 0 0]
+MF193='out1mf193':'linear',[0 0 0 0 0 0 0]
+MF194='out1mf194':'linear',[0 0 0 0 0 0 0]
+MF195='out1mf195':'linear',[0 0 0 0 0 0 0]
+MF196='out1mf196':'linear',[0 0 0 0 0 0 0]
+MF197='out1mf197':'linear',[0 0 0 0 0 0 0]
+MF198='out1mf198':'linear',[0 0 0 0 0 0 0]
+MF199='out1mf199':'linear',[0 0 0 0 0 0 0]
+MF200='out1mf200':'linear',[0 0 0 0 0 0 0]
+MF201='out1mf201':'linear',[0 0 0 0 0 0 0]
+MF202='out1mf202':'linear',[0 0 0 0 0 0 0]
+MF203='out1mf203':'linear',[0 0 0 0 0 0 0]
+MF204='out1mf204':'linear',[0 0 0 0 0 0 0]
+MF205='out1mf205':'linear',[0 0 0 0 0 0 0]
+MF206='out1mf206':'linear',[0 0 0 0 0 0 0]
+MF207='out1mf207':'linear',[0 0 0 0 0 0 0]
+MF208='out1mf208':'linear',[0 0 0 0 0 0 0]
+MF209='out1mf209':'linear',[0 0 0 0 0 0 0]
+MF210='out1mf210':'linear',[0 0 0 0 0 0 0]
+MF211='out1mf211':'linear',[0 0 0 0 0 0 0]
+MF212='out1mf212':'linear',[0 0 0 0 0 0 0]
+MF213='out1mf213':'linear',[0 0 0 0 0 0 0]
+MF214='out1mf214':'linear',[0 0 0 0 0 0 0]
+MF215='out1mf215':'linear',[0 0 0 0 0 0 0]
+MF216='out1mf216':'linear',[0 0 0 0 0 0 0]
+MF217='out1mf217':'linear',[0 0 0 0 0 0 0]
+MF218='out1mf218':'linear',[0 0 0 0 0 0 0]
+MF219='out1mf219':'linear',[0 0 0 0 0 0 0]
+MF220='out1mf220':'linear',[0 0 0 0 0 0 0]
+MF221='out1mf221':'linear',[0 0 0 0 0 0 0]
+MF222='out1mf222':'linear',[0 0 0 0 0 0 0]
+MF223='out1mf223':'linear',[0 0 0 0 0 0 0]
+MF224='out1mf224':'linear',[0 0 0 0 0 0 0]
+MF225='out1mf225':'linear',[0 0 0 0 0 0 0]
+MF226='out1mf226':'linear',[0 0 0 0 0 0 0]
+MF227='out1mf227':'linear',[0 0 0 0 0 0 0]
+MF228='out1mf228':'linear',[0 0 0 0 0 0 0]
+MF229='out1mf229':'linear',[0 0 0 0 0 0 0]
+MF230='out1mf230':'linear',[0 0 0 0 0 0 0]
+MF231='out1mf231':'linear',[0 0 0 0 0 0 0]
+MF232='out1mf232':'linear',[0 0 0 0 0 0 0]
+MF233='out1mf233':'linear',[0 0 0 0 0 0 0]
+MF234='out1mf234':'linear',[0 0 0 0 0 0 0]
+MF235='out1mf235':'linear',[0 0 0 0 0 0 0]
+MF236='out1mf236':'linear',[0 0 0 0 0 0 0]
+MF237='out1mf237':'linear',[0 0 0 0 0 0 0]
+MF238='out1mf238':'linear',[0 0 0 0 0 0 0]
+MF239='out1mf239':'linear',[0 0 0 0 0 0 0]
+MF240='out1mf240':'linear',[0 0 0 0 0 0 0]
+MF241='out1mf241':'linear',[0 0 0 0 0 0 0]
+MF242='out1mf242':'linear',[0 0 0 0 0 0 0]
+MF243='out1mf243':'linear',[0 0 0 0 0 0 0]
+MF244='out1mf244':'linear',[0 0 0 0 0 0 0]
+MF245='out1mf245':'linear',[0 0 0 0 0 0 0]
+MF246='out1mf246':'linear',[0 0 0 0 0 0 0]
+MF247='out1mf247':'linear',[0 0 0 0 0 0 0]
+MF248='out1mf248':'linear',[0 0 0 0 0 0 0]
+MF249='out1mf249':'linear',[0 0 0 0 0 0 0]
+MF250='out1mf250':'linear',[0 0 0 0 0 0 0]
+MF251='out1mf251':'linear',[0 0 0 0 0 0 0]
+MF252='out1mf252':'linear',[0 0 0 0 0 0 0]
+MF253='out1mf253':'linear',[0 0 0 0 0 0 0]
+MF254='out1mf254':'linear',[0 0 0 0 0 0 0]
+MF255='out1mf255':'linear',[0 0 0 0 0 0 0]
+MF256='out1mf256':'linear',[0 0 0 0 0 0 0]
+MF257='out1mf257':'linear',[0 0 0 0 0 0 0]
+MF258='out1mf258':'linear',[0 0 0 0 0 0 0]
+MF259='out1mf259':'linear',[0 0 0 0 0 0 0]
+MF260='out1mf260':'linear',[0 0 0 0 0 0 0]
+MF261='out1mf261':'linear',[0 0 0 0 0 0 0]
+MF262='out1mf262':'linear',[0 0 0 0 0 0 0]
+MF263='out1mf263':'linear',[0 0 0 0 0 0 0]
+MF264='out1mf264':'linear',[0 0 0 0 0 0 0]
+MF265='out1mf265':'linear',[0 0 0 0 0 0 0]
+MF266='out1mf266':'linear',[0 0 0 0 0 0 0]
+MF267='out1mf267':'linear',[0 0 0 0 0 0 0]
+MF268='out1mf268':'linear',[0 0 0 0 0 0 0]
+MF269='out1mf269':'linear',[0 0 0 0 0 0 0]
+MF270='out1mf270':'linear',[0 0 0 0 0 0 0]
+MF271='out1mf271':'linear',[0 0 0 0 0 0 0]
+MF272='out1mf272':'linear',[0 0 0 0 0 0 0]
+MF273='out1mf273':'linear',[0 0 0 0 0 0 0]
+MF274='out1mf274':'linear',[0 0 0 0 0 0 0]
+MF275='out1mf275':'linear',[0 0 0 0 0 0 0]
+MF276='out1mf276':'linear',[0 0 0 0 0 0 0]
+MF277='out1mf277':'linear',[0 0 0 0 0 0 0]
+MF278='out1mf278':'linear',[0 0 0 0 0 0 0]
+MF279='out1mf279':'linear',[0 0 0 0 0 0 0]
+MF280='out1mf280':'linear',[0 0 0 0 0 0 0]
+MF281='out1mf281':'linear',[0 0 0 0 0 0 0]
+MF282='out1mf282':'linear',[0 0 0 0 0 0 0]
+MF283='out1mf283':'linear',[0 0 0 0 0 0 0]
+MF284='out1mf284':'linear',[0 0 0 0 0 0 0]
+MF285='out1mf285':'linear',[0 0 0 0 0 0 0]
+MF286='out1mf286':'linear',[0 0 0 0 0 0 0]
+MF287='out1mf287':'linear',[0 0 0 0 0 0 0]
+MF288='out1mf288':'linear',[0 0 0 0 0 0 0]
+MF289='out1mf289':'linear',[0 0 0 0 0 0 0]
+MF290='out1mf290':'linear',[0 0 0 0 0 0 0]
+MF291='out1mf291':'linear',[0 0 0 0 0 0 0]
+MF292='out1mf292':'linear',[0 0 0 0 0 0 0]
+MF293='out1mf293':'linear',[0 0 0 0 0 0 0]
+MF294='out1mf294':'linear',[0 0 0 0 0 0 0]
+MF295='out1mf295':'linear',[0 0 0 0 0 0 0]
+MF296='out1mf296':'linear',[0 0 0 0 0 0 0]
+MF297='out1mf297':'linear',[0 0 0 0 0 0 0]
+MF298='out1mf298':'linear',[0 0 0 0 0 0 0]
+MF299='out1mf299':'linear',[0 0 0 0 0 0 0]
+MF300='out1mf300':'linear',[0 0 0 0 0 0 0]
+MF301='out1mf301':'linear',[0 0 0 0 0 0 0]
+MF302='out1mf302':'linear',[0 0 0 0 0 0 0]
+MF303='out1mf303':'linear',[0 0 0 0 0 0 0]
+MF304='out1mf304':'linear',[0 0 0 0 0 0 0]
+MF305='out1mf305':'linear',[0 0 0 0 0 0 0]
+MF306='out1mf306':'linear',[0 0 0 0 0 0 0]
+MF307='out1mf307':'linear',[0 0 0 0 0 0 0]
+MF308='out1mf308':'linear',[0 0 0 0 0 0 0]
+MF309='out1mf309':'linear',[0 0 0 0 0 0 0]
+MF310='out1mf310':'linear',[0 0 0 0 0 0 0]
+MF311='out1mf311':'linear',[0 0 0 0 0 0 0]
+MF312='out1mf312':'linear',[0 0 0 0 0 0 0]
+MF313='out1mf313':'linear',[0 0 0 0 0 0 0]
+MF314='out1mf314':'linear',[0 0 0 0 0 0 0]
+MF315='out1mf315':'linear',[0 0 0 0 0 0 0]
+MF316='out1mf316':'linear',[0 0 0 0 0 0 0]
+MF317='out1mf317':'linear',[0 0 0 0 0 0 0]
+MF318='out1mf318':'linear',[0 0 0 0 0 0 0]
+MF319='out1mf319':'linear',[0 0 0 0 0 0 0]
+MF320='out1mf320':'linear',[0 0 0 0 0 0 0]
+MF321='out1mf321':'linear',[0 0 0 0 0 0 0]
+MF322='out1mf322':'linear',[0 0 0 0 0 0 0]
+MF323='out1mf323':'linear',[0 0 0 0 0 0 0]
+MF324='out1mf324':'linear',[0 0 0 0 0 0 0]
+MF325='out1mf325':'linear',[0 0 0 0 0 0 0]
+MF326='out1mf326':'linear',[0 0 0 0 0 0 0]
+MF327='out1mf327':'linear',[0 0 0 0 0 0 0]
+MF328='out1mf328':'linear',[0 0 0 0 0 0 0]
+MF329='out1mf329':'linear',[0 0 0 0 0 0 0]
+MF330='out1mf330':'linear',[0 0 0 0 0 0 0]
+MF331='out1mf331':'linear',[0 0 0 0 0 0 0]
+MF332='out1mf332':'linear',[0 0 0 0 0 0 0]
+MF333='out1mf333':'linear',[0 0 0 0 0 0 0]
+MF334='out1mf334':'linear',[0 0 0 0 0 0 0]
+MF335='out1mf335':'linear',[0 0 0 0 0 0 0]
+MF336='out1mf336':'linear',[0 0 0 0 0 0 0]
+MF337='out1mf337':'linear',[0 0 0 0 0 0 0]
+MF338='out1mf338':'linear',[0 0 0 0 0 0 0]
+MF339='out1mf339':'linear',[0 0 0 0 0 0 0]
+MF340='out1mf340':'linear',[0 0 0 0 0 0 0]
+MF341='out1mf341':'linear',[0 0 0 0 0 0 0]
+MF342='out1mf342':'linear',[0 0 0 0 0 0 0]
+MF343='out1mf343':'linear',[0 0 0 0 0 0 0]
+MF344='out1mf344':'linear',[0 0 0 0 0 0 0]
+MF345='out1mf345':'linear',[0 0 0 0 0 0 0]
+MF346='out1mf346':'linear',[0 0 0 0 0 0 0]
+MF347='out1mf347':'linear',[0 0 0 0 0 0 0]
+MF348='out1mf348':'linear',[0 0 0 0 0 0 0]
+MF349='out1mf349':'linear',[0 0 0 0 0 0 0]
+MF350='out1mf350':'linear',[0 0 0 0 0 0 0]
+MF351='out1mf351':'linear',[0 0 0 0 0 0 0]
+MF352='out1mf352':'linear',[0 0 0 0 0 0 0]
+MF353='out1mf353':'linear',[0 0 0 0 0 0 0]
+MF354='out1mf354':'linear',[0 0 0 0 0 0 0]
+MF355='out1mf355':'linear',[0 0 0 0 0 0 0]
+MF356='out1mf356':'linear',[0 0 0 0 0 0 0]
+MF357='out1mf357':'linear',[0 0 0 0 0 0 0]
+MF358='out1mf358':'linear',[0 0 0 0 0 0 0]
+MF359='out1mf359':'linear',[0 0 0 0 0 0 0]
+MF360='out1mf360':'linear',[0 0 0 0 0 0 0]
+MF361='out1mf361':'linear',[0 0 0 0 0 0 0]
+MF362='out1mf362':'linear',[0 0 0 0 0 0 0]
+MF363='out1mf363':'linear',[0 0 0 0 0 0 0]
+MF364='out1mf364':'linear',[0 0 0 0 0 0 0]
+MF365='out1mf365':'linear',[0 0 0 0 0 0 0]
+MF366='out1mf366':'linear',[0 0 0 0 0 0 0]
+MF367='out1mf367':'linear',[0 0 0 0 0 0 0]
+MF368='out1mf368':'linear',[0 0 0 0 0 0 0]
+MF369='out1mf369':'linear',[0 0 0 0 0 0 0]
+MF370='out1mf370':'linear',[0 0 0 0 0 0 0]
+MF371='out1mf371':'linear',[0 0 0 0 0 0 0]
+MF372='out1mf372':'linear',[0 0 0 0 0 0 0]
+MF373='out1mf373':'linear',[0 0 0 0 0 0 0]
+MF374='out1mf374':'linear',[0 0 0 0 0 0 0]
+MF375='out1mf375':'linear',[0 0 0 0 0 0 0]
+MF376='out1mf376':'linear',[0 0 0 0 0 0 0]
+MF377='out1mf377':'linear',[0 0 0 0 0 0 0]
+MF378='out1mf378':'linear',[0 0 0 0 0 0 0]
+MF379='out1mf379':'linear',[0 0 0 0 0 0 0]
+MF380='out1mf380':'linear',[0 0 0 0 0 0 0]
+MF381='out1mf381':'linear',[0 0 0 0 0 0 0]
+MF382='out1mf382':'linear',[0 0 0 0 0 0 0]
+MF383='out1mf383':'linear',[0 0 0 0 0 0 0]
+MF384='out1mf384':'linear',[0 0 0 0 0 0 0]
+MF385='out1mf385':'linear',[0 0 0 0 0 0 0]
+MF386='out1mf386':'linear',[0 0 0 0 0 0 0]
+MF387='out1mf387':'linear',[0 0 0 0 0 0 0]
+MF388='out1mf388':'linear',[0 0 0 0 0 0 0]
+MF389='out1mf389':'linear',[0 0 0 0 0 0 0]
+MF390='out1mf390':'linear',[0 0 0 0 0 0 0]
+MF391='out1mf391':'linear',[0 0 0 0 0 0 0]
+MF392='out1mf392':'linear',[0 0 0 0 0 0 0]
+MF393='out1mf393':'linear',[0 0 0 0 0 0 0]
+MF394='out1mf394':'linear',[0 0 0 0 0 0 0]
+MF395='out1mf395':'linear',[0 0 0 0 0 0 0]
+MF396='out1mf396':'linear',[0 0 0 0 0 0 0]
+MF397='out1mf397':'linear',[0 0 0 0 0 0 0]
+MF398='out1mf398':'linear',[0 0 0 0 0 0 0]
+MF399='out1mf399':'linear',[0 0 0 0 0 0 0]
+MF400='out1mf400':'linear',[0 0 0 0 0 0 0]
+MF401='out1mf401':'linear',[0 0 0 0 0 0 0]
+MF402='out1mf402':'linear',[0 0 0 0 0 0 0]
+MF403='out1mf403':'linear',[0 0 0 0 0 0 0]
+MF404='out1mf404':'linear',[0 0 0 0 0 0 0]
+MF405='out1mf405':'linear',[0 0 0 0 0 0 0]
+MF406='out1mf406':'linear',[0 0 0 0 0 0 0]
+MF407='out1mf407':'linear',[0 0 0 0 0 0 0]
+MF408='out1mf408':'linear',[0 0 0 0 0 0 0]
+MF409='out1mf409':'linear',[0 0 0 0 0 0 0]
+MF410='out1mf410':'linear',[0 0 0 0 0 0 0]
+MF411='out1mf411':'linear',[0 0 0 0 0 0 0]
+MF412='out1mf412':'linear',[0 0 0 0 0 0 0]
+MF413='out1mf413':'linear',[0 0 0 0 0 0 0]
+MF414='out1mf414':'linear',[0 0 0 0 0 0 0]
+MF415='out1mf415':'linear',[0 0 0 0 0 0 0]
+MF416='out1mf416':'linear',[0 0 0 0 0 0 0]
+MF417='out1mf417':'linear',[0 0 0 0 0 0 0]
+MF418='out1mf418':'linear',[0 0 0 0 0 0 0]
+MF419='out1mf419':'linear',[0 0 0 0 0 0 0]
+MF420='out1mf420':'linear',[0 0 0 0 0 0 0]
+MF421='out1mf421':'linear',[0 0 0 0 0 0 0]
+MF422='out1mf422':'linear',[0 0 0 0 0 0 0]
+MF423='out1mf423':'linear',[0 0 0 0 0 0 0]
+MF424='out1mf424':'linear',[0 0 0 0 0 0 0]
+MF425='out1mf425':'linear',[0 0 0 0 0 0 0]
+MF426='out1mf426':'linear',[0 0 0 0 0 0 0]
+MF427='out1mf427':'linear',[0 0 0 0 0 0 0]
+MF428='out1mf428':'linear',[0 0 0 0 0 0 0]
+MF429='out1mf429':'linear',[0 0 0 0 0 0 0]
+MF430='out1mf430':'linear',[0 0 0 0 0 0 0]
+MF431='out1mf431':'linear',[0 0 0 0 0 0 0]
+MF432='out1mf432':'linear',[0 0 0 0 0 0 0]
+MF433='out1mf433':'linear',[0 0 0 0 0 0 0]
+MF434='out1mf434':'linear',[0 0 0 0 0 0 0]
+MF435='out1mf435':'linear',[0 0 0 0 0 0 0]
+MF436='out1mf436':'linear',[0 0 0 0 0 0 0]
+MF437='out1mf437':'linear',[0 0 0 0 0 0 0]
+MF438='out1mf438':'linear',[0 0 0 0 0 0 0]
+MF439='out1mf439':'linear',[0 0 0 0 0 0 0]
+MF440='out1mf440':'linear',[0 0 0 0 0 0 0]
+MF441='out1mf441':'linear',[0 0 0 0 0 0 0]
+MF442='out1mf442':'linear',[0 0 0 0 0 0 0]
+MF443='out1mf443':'linear',[0 0 0 0 0 0 0]
+MF444='out1mf444':'linear',[0 0 0 0 0 0 0]
+MF445='out1mf445':'linear',[0 0 0 0 0 0 0]
+MF446='out1mf446':'linear',[0 0 0 0 0 0 0]
+MF447='out1mf447':'linear',[0 0 0 0 0 0 0]
+MF448='out1mf448':'linear',[0 0 0 0 0 0 0]
+MF449='out1mf449':'linear',[0 0 0 0 0 0 0]
+MF450='out1mf450':'linear',[0 0 0 0 0 0 0]
+MF451='out1mf451':'linear',[0 0 0 0 0 0 0]
+MF452='out1mf452':'linear',[0 0 0 0 0 0 0]
+MF453='out1mf453':'linear',[0 0 0 0 0 0 0]
+MF454='out1mf454':'linear',[0 0 0 0 0 0 0]
+MF455='out1mf455':'linear',[0 0 0 0 0 0 0]
+MF456='out1mf456':'linear',[0 0 0 0 0 0 0]
+MF457='out1mf457':'linear',[0 0 0 0 0 0 0]
+MF458='out1mf458':'linear',[0 0 0 0 0 0 0]
+MF459='out1mf459':'linear',[0 0 0 0 0 0 0]
+MF460='out1mf460':'linear',[0 0 0 0 0 0 0]
+MF461='out1mf461':'linear',[0 0 0 0 0 0 0]
+MF462='out1mf462':'linear',[0 0 0 0 0 0 0]
+MF463='out1mf463':'linear',[0 0 0 0 0 0 0]
+MF464='out1mf464':'linear',[0 0 0 0 0 0 0]
+MF465='out1mf465':'linear',[0 0 0 0 0 0 0]
+MF466='out1mf466':'linear',[0 0 0 0 0 0 0]
+MF467='out1mf467':'linear',[0 0 0 0 0 0 0]
+MF468='out1mf468':'linear',[0 0 0 0 0 0 0]
+MF469='out1mf469':'linear',[0 0 0 0 0 0 0]
+MF470='out1mf470':'linear',[0 0 0 0 0 0 0]
+MF471='out1mf471':'linear',[0 0 0 0 0 0 0]
+MF472='out1mf472':'linear',[0 0 0 0 0 0 0]
+MF473='out1mf473':'linear',[0 0 0 0 0 0 0]
+MF474='out1mf474':'linear',[0 0 0 0 0 0 0]
+MF475='out1mf475':'linear',[0 0 0 0 0 0 0]
+MF476='out1mf476':'linear',[0 0 0 0 0 0 0]
+MF477='out1mf477':'linear',[0 0 0 0 0 0 0]
+MF478='out1mf478':'linear',[0 0 0 0 0 0 0]
+MF479='out1mf479':'linear',[0 0 0 0 0 0 0]
+MF480='out1mf480':'linear',[0 0 0 0 0 0 0]
+MF481='out1mf481':'linear',[0 0 0 0 0 0 0]
+MF482='out1mf482':'linear',[0 0 0 0 0 0 0]
+MF483='out1mf483':'linear',[0 0 0 0 0 0 0]
+MF484='out1mf484':'linear',[0 0 0 0 0 0 0]
+MF485='out1mf485':'linear',[0 0 0 0 0 0 0]
+MF486='out1mf486':'linear',[0 0 0 0 0 0 0]
+MF487='out1mf487':'linear',[0 0 0 0 0 0 0]
+MF488='out1mf488':'linear',[0 0 0 0 0 0 0]
+MF489='out1mf489':'linear',[0 0 0 0 0 0 0]
+MF490='out1mf490':'linear',[0 0 0 0 0 0 0]
+MF491='out1mf491':'linear',[0 0 0 0 0 0 0]
+MF492='out1mf492':'linear',[0 0 0 0 0 0 0]
+MF493='out1mf493':'linear',[0 0 0 0 0 0 0]
+MF494='out1mf494':'linear',[0 0 0 0 0 0 0]
+MF495='out1mf495':'linear',[0 0 0 0 0 0 0]
+MF496='out1mf496':'linear',[0 0 0 0 0 0 0]
+MF497='out1mf497':'linear',[0 0 0 0 0 0 0]
+MF498='out1mf498':'linear',[0 0 0 0 0 0 0]
+MF499='out1mf499':'linear',[0 0 0 0 0 0 0]
+MF500='out1mf500':'linear',[0 0 0 0 0 0 0]
+MF501='out1mf501':'linear',[0 0 0 0 0 0 0]
+MF502='out1mf502':'linear',[0 0 0 0 0 0 0]
+MF503='out1mf503':'linear',[0 0 0 0 0 0 0]
+MF504='out1mf504':'linear',[0 0 0 0 0 0 0]
+MF505='out1mf505':'linear',[0 0 0 0 0 0 0]
+MF506='out1mf506':'linear',[0 0 0 0 0 0 0]
+MF507='out1mf507':'linear',[0 0 0 0 0 0 0]
+MF508='out1mf508':'linear',[0 0 0 0 0 0 0]
+MF509='out1mf509':'linear',[0 0 0 0 0 0 0]
+MF510='out1mf510':'linear',[0 0 0 0 0 0 0]
+MF511='out1mf511':'linear',[0 0 0 0 0 0 0]
+MF512='out1mf512':'linear',[0 0 0 0 0 0 0]
+MF513='out1mf513':'linear',[0 0 0 0 0 0 0]
+MF514='out1mf514':'linear',[0 0 0 0 0 0 0]
+MF515='out1mf515':'linear',[0 0 0 0 0 0 0]
+MF516='out1mf516':'linear',[0 0 0 0 0 0 0]
+MF517='out1mf517':'linear',[0 0 0 0 0 0 0]
+MF518='out1mf518':'linear',[0 0 0 0 0 0 0]
+MF519='out1mf519':'linear',[0 0 0 0 0 0 0]
+MF520='out1mf520':'linear',[0 0 0 0 0 0 0]
+MF521='out1mf521':'linear',[0 0 0 0 0 0 0]
+MF522='out1mf522':'linear',[0 0 0 0 0 0 0]
+MF523='out1mf523':'linear',[0 0 0 0 0 0 0]
+MF524='out1mf524':'linear',[0 0 0 0 0 0 0]
+MF525='out1mf525':'linear',[0 0 0 0 0 0 0]
+MF526='out1mf526':'linear',[0 0 0 0 0 0 0]
+MF527='out1mf527':'linear',[0 0 0 0 0 0 0]
+MF528='out1mf528':'linear',[0 0 0 0 0 0 0]
+MF529='out1mf529':'linear',[0 0 0 0 0 0 0]
+MF530='out1mf530':'linear',[0 0 0 0 0 0 0]
+MF531='out1mf531':'linear',[0 0 0 0 0 0 0]
+MF532='out1mf532':'linear',[0 0 0 0 0 0 0]
+MF533='out1mf533':'linear',[0 0 0 0 0 0 0]
+MF534='out1mf534':'linear',[0 0 0 0 0 0 0]
+MF535='out1mf535':'linear',[0 0 0 0 0 0 0]
+MF536='out1mf536':'linear',[0 0 0 0 0 0 0]
+MF537='out1mf537':'linear',[0 0 0 0 0 0 0]
+MF538='out1mf538':'linear',[0 0 0 0 0 0 0]
+MF539='out1mf539':'linear',[0 0 0 0 0 0 0]
+MF540='out1mf540':'linear',[0 0 0 0 0 0 0]
+MF541='out1mf541':'linear',[0 0 0 0 0 0 0]
+MF542='out1mf542':'linear',[0 0 0 0 0 0 0]
+MF543='out1mf543':'linear',[0 0 0 0 0 0 0]
+MF544='out1mf544':'linear',[0 0 0 0 0 0 0]
+MF545='out1mf545':'linear',[0 0 0 0 0 0 0]
+MF546='out1mf546':'linear',[0 0 0 0 0 0 0]
+MF547='out1mf547':'linear',[0 0 0 0 0 0 0]
+MF548='out1mf548':'linear',[0 0 0 0 0 0 0]
+MF549='out1mf549':'linear',[0 0 0 0 0 0 0]
+MF550='out1mf550':'linear',[0 0 0 0 0 0 0]
+MF551='out1mf551':'linear',[0 0 0 0 0 0 0]
+MF552='out1mf552':'linear',[0 0 0 0 0 0 0]
+MF553='out1mf553':'linear',[0 0 0 0 0 0 0]
+MF554='out1mf554':'linear',[0 0 0 0 0 0 0]
+MF555='out1mf555':'linear',[0 0 0 0 0 0 0]
+MF556='out1mf556':'linear',[0 0 0 0 0 0 0]
+MF557='out1mf557':'linear',[0 0 0 0 0 0 0]
+MF558='out1mf558':'linear',[0 0 0 0 0 0 0]
+MF559='out1mf559':'linear',[0 0 0 0 0 0 0]
+MF560='out1mf560':'linear',[0 0 0 0 0 0 0]
+MF561='out1mf561':'linear',[0 0 0 0 0 0 0]
+MF562='out1mf562':'linear',[0 0 0 0 0 0 0]
+MF563='out1mf563':'linear',[0 0 0 0 0 0 0]
+MF564='out1mf564':'linear',[0 0 0 0 0 0 0]
+MF565='out1mf565':'linear',[0 0 0 0 0 0 0]
+MF566='out1mf566':'linear',[0 0 0 0 0 0 0]
+MF567='out1mf567':'linear',[0 0 0 0 0 0 0]
+MF568='out1mf568':'linear',[0 0 0 0 0 0 0]
+MF569='out1mf569':'linear',[0 0 0 0 0 0 0]
+MF570='out1mf570':'linear',[0 0 0 0 0 0 0]
+MF571='out1mf571':'linear',[0 0 0 0 0 0 0]
+MF572='out1mf572':'linear',[0 0 0 0 0 0 0]
+MF573='out1mf573':'linear',[0 0 0 0 0 0 0]
+MF574='out1mf574':'linear',[0 0 0 0 0 0 0]
+MF575='out1mf575':'linear',[0 0 0 0 0 0 0]
+MF576='out1mf576':'linear',[0 0 0 0 0 0 0]
+MF577='out1mf577':'linear',[0 0 0 0 0 0 0]
+MF578='out1mf578':'linear',[0 0 0 0 0 0 0]
+MF579='out1mf579':'linear',[0 0 0 0 0 0 0]
+MF580='out1mf580':'linear',[0 0 0 0 0 0 0]
+MF581='out1mf581':'linear',[0 0 0 0 0 0 0]
+MF582='out1mf582':'linear',[0 0 0 0 0 0 0]
+MF583='out1mf583':'linear',[0 0 0 0 0 0 0]
+MF584='out1mf584':'linear',[0 0 0 0 0 0 0]
+MF585='out1mf585':'linear',[0 0 0 0 0 0 0]
+MF586='out1mf586':'linear',[0 0 0 0 0 0 0]
+MF587='out1mf587':'linear',[0 0 0 0 0 0 0]
+MF588='out1mf588':'linear',[0 0 0 0 0 0 0]
+MF589='out1mf589':'linear',[0 0 0 0 0 0 0]
+MF590='out1mf590':'linear',[0 0 0 0 0 0 0]
+MF591='out1mf591':'linear',[0 0 0 0 0 0 0]
+MF592='out1mf592':'linear',[0 0 0 0 0 0 0]
+MF593='out1mf593':'linear',[0 0 0 0 0 0 0]
+MF594='out1mf594':'linear',[0 0 0 0 0 0 0]
+MF595='out1mf595':'linear',[0 0 0 0 0 0 0]
+MF596='out1mf596':'linear',[0 0 0 0 0 0 0]
+MF597='out1mf597':'linear',[0 0 0 0 0 0 0]
+MF598='out1mf598':'linear',[0 0 0 0 0 0 0]
+MF599='out1mf599':'linear',[0 0 0 0 0 0 0]
+MF600='out1mf600':'linear',[0 0 0 0 0 0 0]
+MF601='out1mf601':'linear',[0 0 0 0 0 0 0]
+MF602='out1mf602':'linear',[0 0 0 0 0 0 0]
+MF603='out1mf603':'linear',[0 0 0 0 0 0 0]
+MF604='out1mf604':'linear',[0 0 0 0 0 0 0]
+MF605='out1mf605':'linear',[0 0 0 0 0 0 0]
+MF606='out1mf606':'linear',[0 0 0 0 0 0 0]
+MF607='out1mf607':'linear',[0 0 0 0 0 0 0]
+MF608='out1mf608':'linear',[0 0 0 0 0 0 0]
+MF609='out1mf609':'linear',[0 0 0 0 0 0 0]
+MF610='out1mf610':'linear',[0 0 0 0 0 0 0]
+MF611='out1mf611':'linear',[0 0 0 0 0 0 0]
+MF612='out1mf612':'linear',[0 0 0 0 0 0 0]
+MF613='out1mf613':'linear',[0 0 0 0 0 0 0]
+MF614='out1mf614':'linear',[0 0 0 0 0 0 0]
+MF615='out1mf615':'linear',[0 0 0 0 0 0 0]
+MF616='out1mf616':'linear',[0 0 0 0 0 0 0]
+MF617='out1mf617':'linear',[0 0 0 0 0 0 0]
+MF618='out1mf618':'linear',[0 0 0 0 0 0 0]
+MF619='out1mf619':'linear',[0 0 0 0 0 0 0]
+MF620='out1mf620':'linear',[0 0 0 0 0 0 0]
+MF621='out1mf621':'linear',[0 0 0 0 0 0 0]
+MF622='out1mf622':'linear',[0 0 0 0 0 0 0]
+MF623='out1mf623':'linear',[0 0 0 0 0 0 0]
+MF624='out1mf624':'linear',[0 0 0 0 0 0 0]
+MF625='out1mf625':'linear',[0 0 0 0 0 0 0]
+MF626='out1mf626':'linear',[0 0 0 0 0 0 0]
+MF627='out1mf627':'linear',[0 0 0 0 0 0 0]
+MF628='out1mf628':'linear',[0 0 0 0 0 0 0]
+MF629='out1mf629':'linear',[0 0 0 0 0 0 0]
+MF630='out1mf630':'linear',[0 0 0 0 0 0 0]
+MF631='out1mf631':'linear',[0 0 0 0 0 0 0]
+MF632='out1mf632':'linear',[0 0 0 0 0 0 0]
+MF633='out1mf633':'linear',[0 0 0 0 0 0 0]
+MF634='out1mf634':'linear',[0 0 0 0 0 0 0]
+MF635='out1mf635':'linear',[0 0 0 0 0 0 0]
+MF636='out1mf636':'linear',[0 0 0 0 0 0 0]
+MF637='out1mf637':'linear',[0 0 0 0 0 0 0]
+MF638='out1mf638':'linear',[0 0 0 0 0 0 0]
+MF639='out1mf639':'linear',[0 0 0 0 0 0 0]
+MF640='out1mf640':'linear',[0 0 0 0 0 0 0]
+MF641='out1mf641':'linear',[0 0 0 0 0 0 0]
+MF642='out1mf642':'linear',[0 0 0 0 0 0 0]
+MF643='out1mf643':'linear',[0 0 0 0 0 0 0]
+MF644='out1mf644':'linear',[0 0 0 0 0 0 0]
+MF645='out1mf645':'linear',[0 0 0 0 0 0 0]
+MF646='out1mf646':'linear',[0 0 0 0 0 0 0]
+MF647='out1mf647':'linear',[0 0 0 0 0 0 0]
+MF648='out1mf648':'linear',[0 0 0 0 0 0 0]
+MF649='out1mf649':'linear',[0 0 0 0 0 0 0]
+MF650='out1mf650':'linear',[0 0 0 0 0 0 0]
+MF651='out1mf651':'linear',[0 0 0 0 0 0 0]
+MF652='out1mf652':'linear',[0 0 0 0 0 0 0]
+MF653='out1mf653':'linear',[0 0 0 0 0 0 0]
+MF654='out1mf654':'linear',[0 0 0 0 0 0 0]
+MF655='out1mf655':'linear',[0 0 0 0 0 0 0]
+MF656='out1mf656':'linear',[0 0 0 0 0 0 0]
+MF657='out1mf657':'linear',[0 0 0 0 0 0 0]
+MF658='out1mf658':'linear',[0 0 0 0 0 0 0]
+MF659='out1mf659':'linear',[0 0 0 0 0 0 0]
+MF660='out1mf660':'linear',[0 0 0 0 0 0 0]
+MF661='out1mf661':'linear',[0 0 0 0 0 0 0]
+MF662='out1mf662':'linear',[0 0 0 0 0 0 0]
+MF663='out1mf663':'linear',[0 0 0 0 0 0 0]
+MF664='out1mf664':'linear',[0 0 0 0 0 0 0]
+MF665='out1mf665':'linear',[0 0 0 0 0 0 0]
+MF666='out1mf666':'linear',[0 0 0 0 0 0 0]
+MF667='out1mf667':'linear',[0 0 0 0 0 0 0]
+MF668='out1mf668':'linear',[0 0 0 0 0 0 0]
+MF669='out1mf669':'linear',[0 0 0 0 0 0 0]
+MF670='out1mf670':'linear',[0 0 0 0 0 0 0]
+MF671='out1mf671':'linear',[0 0 0 0 0 0 0]
+MF672='out1mf672':'linear',[0 0 0 0 0 0 0]
+MF673='out1mf673':'linear',[0 0 0 0 0 0 0]
+MF674='out1mf674':'linear',[0 0 0 0 0 0 0]
+MF675='out1mf675':'linear',[0 0 0 0 0 0 0]
+MF676='out1mf676':'linear',[0 0 0 0 0 0 0]
+MF677='out1mf677':'linear',[0 0 0 0 0 0 0]
+MF678='out1mf678':'linear',[0 0 0 0 0 0 0]
+MF679='out1mf679':'linear',[0 0 0 0 0 0 0]
+MF680='out1mf680':'linear',[0 0 0 0 0 0 0]
+MF681='out1mf681':'linear',[0 0 0 0 0 0 0]
+MF682='out1mf682':'linear',[0 0 0 0 0 0 0]
+MF683='out1mf683':'linear',[0 0 0 0 0 0 0]
+MF684='out1mf684':'linear',[0 0 0 0 0 0 0]
+MF685='out1mf685':'linear',[0 0 0 0 0 0 0]
+MF686='out1mf686':'linear',[0 0 0 0 0 0 0]
+MF687='out1mf687':'linear',[0 0 0 0 0 0 0]
+MF688='out1mf688':'linear',[0 0 0 0 0 0 0]
+MF689='out1mf689':'linear',[0 0 0 0 0 0 0]
+MF690='out1mf690':'linear',[0 0 0 0 0 0 0]
+MF691='out1mf691':'linear',[0 0 0 0 0 0 0]
+MF692='out1mf692':'linear',[0 0 0 0 0 0 0]
+MF693='out1mf693':'linear',[0 0 0 0 0 0 0]
+MF694='out1mf694':'linear',[0 0 0 0 0 0 0]
+MF695='out1mf695':'linear',[0 0 0 0 0 0 0]
+MF696='out1mf696':'linear',[0 0 0 0 0 0 0]
+MF697='out1mf697':'linear',[0 0 0 0 0 0 0]
+MF698='out1mf698':'linear',[0 0 0 0 0 0 0]
+MF699='out1mf699':'linear',[0 0 0 0 0 0 0]
+MF700='out1mf700':'linear',[0 0 0 0 0 0 0]
+MF701='out1mf701':'linear',[0 0 0 0 0 0 0]
+MF702='out1mf702':'linear',[0 0 0 0 0 0 0]
+MF703='out1mf703':'linear',[0 0 0 0 0 0 0]
+MF704='out1mf704':'linear',[0 0 0 0 0 0 0]
+MF705='out1mf705':'linear',[0 0 0 0 0 0 0]
+MF706='out1mf706':'linear',[0 0 0 0 0 0 0]
+MF707='out1mf707':'linear',[0 0 0 0 0 0 0]
+MF708='out1mf708':'linear',[0 0 0 0 0 0 0]
+MF709='out1mf709':'linear',[0 0 0 0 0 0 0]
+MF710='out1mf710':'linear',[0 0 0 0 0 0 0]
+MF711='out1mf711':'linear',[0 0 0 0 0 0 0]
+MF712='out1mf712':'linear',[0 0 0 0 0 0 0]
+MF713='out1mf713':'linear',[0 0 0 0 0 0 0]
+MF714='out1mf714':'linear',[0 0 0 0 0 0 0]
+MF715='out1mf715':'linear',[0 0 0 0 0 0 0]
+MF716='out1mf716':'linear',[0 0 0 0 0 0 0]
+MF717='out1mf717':'linear',[0 0 0 0 0 0 0]
+MF718='out1mf718':'linear',[0 0 0 0 0 0 0]
+MF719='out1mf719':'linear',[0 0 0 0 0 0 0]
+MF720='out1mf720':'linear',[0 0 0 0 0 0 0]
+MF721='out1mf721':'linear',[0 0 0 0 0 0 0]
+MF722='out1mf722':'linear',[0 0 0 0 0 0 0]
+MF723='out1mf723':'linear',[0 0 0 0 0 0 0]
+MF724='out1mf724':'linear',[0 0 0 0 0 0 0]
+MF725='out1mf725':'linear',[0 0 0 0 0 0 0]
+MF726='out1mf726':'linear',[0 0 0 0 0 0 0]
+MF727='out1mf727':'linear',[0 0 0 0 0 0 0]
+MF728='out1mf728':'linear',[0 0 0 0 0 0 0]
+MF729='out1mf729':'linear',[0 0 0 0 0 0 0]
+MF730='out1mf730':'linear',[0 0 0 0 0 0 0]
+MF731='out1mf731':'linear',[0 0 0 0 0 0 0]
+MF732='out1mf732':'linear',[0 0 0 0 0 0 0]
+MF733='out1mf733':'linear',[0 0 0 0 0 0 0]
+MF734='out1mf734':'linear',[0 0 0 0 0 0 0]
+MF735='out1mf735':'linear',[0 0 0 0 0 0 0]
+MF736='out1mf736':'linear',[0 0 0 0 0 0 0]
+MF737='out1mf737':'linear',[0 0 0 0 0 0 0]
+MF738='out1mf738':'linear',[0 0 0 0 0 0 0]
+MF739='out1mf739':'linear',[0 0 0 0 0 0 0]
+MF740='out1mf740':'linear',[0 0 0 0 0 0 0]
+MF741='out1mf741':'linear',[0 0 0 0 0 0 0]
+MF742='out1mf742':'linear',[0 0 0 0 0 0 0]
+MF743='out1mf743':'linear',[0 0 0 0 0 0 0]
+MF744='out1mf744':'linear',[0 0 0 0 0 0 0]
+MF745='out1mf745':'linear',[0 0 0 0 0 0 0]
+MF746='out1mf746':'linear',[0 0 0 0 0 0 0]
+MF747='out1mf747':'linear',[0 0 0 0 0 0 0]
+MF748='out1mf748':'linear',[0 0 0 0 0 0 0]
+MF749='out1mf749':'linear',[0 0 0 0 0 0 0]
+MF750='out1mf750':'linear',[0 0 0 0 0 0 0]
+MF751='out1mf751':'linear',[0 0 0 0 0 0 0]
+MF752='out1mf752':'linear',[0 0 0 0 0 0 0]
+MF753='out1mf753':'linear',[0 0 0 0 0 0 0]
+MF754='out1mf754':'linear',[0 0 0 0 0 0 0]
+MF755='out1mf755':'linear',[0 0 0 0 0 0 0]
+MF756='out1mf756':'linear',[0 0 0 0 0 0 0]
+MF757='out1mf757':'linear',[0 0 0 0 0 0 0]
+MF758='out1mf758':'linear',[0 0 0 0 0 0 0]
+MF759='out1mf759':'linear',[0 0 0 0 0 0 0]
+MF760='out1mf760':'linear',[0 0 0 0 0 0 0]
+MF761='out1mf761':'linear',[0 0 0 0 0 0 0]
+MF762='out1mf762':'linear',[0 0 0 0 0 0 0]
+MF763='out1mf763':'linear',[0 0 0 0 0 0 0]
+MF764='out1mf764':'linear',[0 0 0 0 0 0 0]
+MF765='out1mf765':'linear',[0 0 0 0 0 0 0]
+MF766='out1mf766':'linear',[0 0 0 0 0 0 0]
+MF767='out1mf767':'linear',[0 0 0 0 0 0 0]
+MF768='out1mf768':'linear',[0 0 0 0 0 0 0]
+MF769='out1mf769':'linear',[0 0 0 0 0 0 0]
+MF770='out1mf770':'linear',[0 0 0 0 0 0 0]
+MF771='out1mf771':'linear',[0 0 0 0 0 0 0]
+MF772='out1mf772':'linear',[0 0 0 0 0 0 0]
+MF773='out1mf773':'linear',[0 0 0 0 0 0 0]
+MF774='out1mf774':'linear',[0 0 0 0 0 0 0]
+MF775='out1mf775':'linear',[0 0 0 0 0 0 0]
+MF776='out1mf776':'linear',[0 0 0 0 0 0 0]
+MF777='out1mf777':'linear',[0 0 0 0 0 0 0]
+MF778='out1mf778':'linear',[0 0 0 0 0 0 0]
+MF779='out1mf779':'linear',[0 0 0 0 0 0 0]
+MF780='out1mf780':'linear',[0 0 0 0 0 0 0]
+MF781='out1mf781':'linear',[0 0 0 0 0 0 0]
+MF782='out1mf782':'linear',[0 0 0 0 0 0 0]
+MF783='out1mf783':'linear',[0 0 0 0 0 0 0]
+MF784='out1mf784':'linear',[0 0 0 0 0 0 0]
+MF785='out1mf785':'linear',[0 0 0 0 0 0 0]
+MF786='out1mf786':'linear',[0 0 0 0 0 0 0]
+MF787='out1mf787':'linear',[0 0 0 0 0 0 0]
+MF788='out1mf788':'linear',[0 0 0 0 0 0 0]
+MF789='out1mf789':'linear',[0 0 0 0 0 0 0]
+MF790='out1mf790':'linear',[0 0 0 0 0 0 0]
+MF791='out1mf791':'linear',[0 0 0 0 0 0 0]
+MF792='out1mf792':'linear',[0 0 0 0 0 0 0]
+MF793='out1mf793':'linear',[0 0 0 0 0 0 0]
+MF794='out1mf794':'linear',[0 0 0 0 0 0 0]
+MF795='out1mf795':'linear',[0 0 0 0 0 0 0]
+MF796='out1mf796':'linear',[0 0 0 0 0 0 0]
+MF797='out1mf797':'linear',[0 0 0 0 0 0 0]
+MF798='out1mf798':'linear',[0 0 0 0 0 0 0]
+MF799='out1mf799':'linear',[0 0 0 0 0 0 0]
+MF800='out1mf800':'linear',[0 0 0 0 0 0 0]
+MF801='out1mf801':'linear',[0 0 0 0 0 0 0]
+MF802='out1mf802':'linear',[0 0 0 0 0 0 0]
+MF803='out1mf803':'linear',[0 0 0 0 0 0 0]
+MF804='out1mf804':'linear',[0 0 0 0 0 0 0]
+MF805='out1mf805':'linear',[0 0 0 0 0 0 0]
+MF806='out1mf806':'linear',[0 0 0 0 0 0 0]
+MF807='out1mf807':'linear',[0 0 0 0 0 0 0]
+MF808='out1mf808':'linear',[0 0 0 0 0 0 0]
+MF809='out1mf809':'linear',[0 0 0 0 0 0 0]
+MF810='out1mf810':'linear',[0 0 0 0 0 0 0]
+MF811='out1mf811':'linear',[0 0 0 0 0 0 0]
+MF812='out1mf812':'linear',[0 0 0 0 0 0 0]
+MF813='out1mf813':'linear',[0 0 0 0 0 0 0]
+MF814='out1mf814':'linear',[0 0 0 0 0 0 0]
+MF815='out1mf815':'linear',[0 0 0 0 0 0 0]
+MF816='out1mf816':'linear',[0 0 0 0 0 0 0]
+MF817='out1mf817':'linear',[0 0 0 0 0 0 0]
+MF818='out1mf818':'linear',[0 0 0 0 0 0 0]
+MF819='out1mf819':'linear',[0 0 0 0 0 0 0]
+MF820='out1mf820':'linear',[0 0 0 0 0 0 0]
+MF821='out1mf821':'linear',[0 0 0 0 0 0 0]
+MF822='out1mf822':'linear',[0 0 0 0 0 0 0]
+MF823='out1mf823':'linear',[0 0 0 0 0 0 0]
+MF824='out1mf824':'linear',[0 0 0 0 0 0 0]
+MF825='out1mf825':'linear',[0 0 0 0 0 0 0]
+MF826='out1mf826':'linear',[0 0 0 0 0 0 0]
+MF827='out1mf827':'linear',[0 0 0 0 0 0 0]
+MF828='out1mf828':'linear',[0 0 0 0 0 0 0]
+MF829='out1mf829':'linear',[0 0 0 0 0 0 0]
+MF830='out1mf830':'linear',[0 0 0 0 0 0 0]
+MF831='out1mf831':'linear',[0 0 0 0 0 0 0]
+MF832='out1mf832':'linear',[0 0 0 0 0 0 0]
+MF833='out1mf833':'linear',[0 0 0 0 0 0 0]
+MF834='out1mf834':'linear',[0 0 0 0 0 0 0]
+MF835='out1mf835':'linear',[0 0 0 0 0 0 0]
+MF836='out1mf836':'linear',[0 0 0 0 0 0 0]
+MF837='out1mf837':'linear',[0 0 0 0 0 0 0]
+MF838='out1mf838':'linear',[0 0 0 0 0 0 0]
+MF839='out1mf839':'linear',[0 0 0 0 0 0 0]
+MF840='out1mf840':'linear',[0 0 0 0 0 0 0]
+MF841='out1mf841':'linear',[0 0 0 0 0 0 0]
+MF842='out1mf842':'linear',[0 0 0 0 0 0 0]
+MF843='out1mf843':'linear',[0 0 0 0 0 0 0]
+MF844='out1mf844':'linear',[0 0 0 0 0 0 0]
+MF845='out1mf845':'linear',[0 0 0 0 0 0 0]
+MF846='out1mf846':'linear',[0 0 0 0 0 0 0]
+MF847='out1mf847':'linear',[0 0 0 0 0 0 0]
+MF848='out1mf848':'linear',[0 0 0 0 0 0 0]
+MF849='out1mf849':'linear',[0 0 0 0 0 0 0]
+MF850='out1mf850':'linear',[0 0 0 0 0 0 0]
+MF851='out1mf851':'linear',[0 0 0 0 0 0 0]
+MF852='out1mf852':'linear',[0 0 0 0 0 0 0]
+MF853='out1mf853':'linear',[0 0 0 0 0 0 0]
+MF854='out1mf854':'linear',[0 0 0 0 0 0 0]
+MF855='out1mf855':'linear',[0 0 0 0 0 0 0]
+MF856='out1mf856':'linear',[0 0 0 0 0 0 0]
+MF857='out1mf857':'linear',[0 0 0 0 0 0 0]
+MF858='out1mf858':'linear',[0 0 0 0 0 0 0]
+MF859='out1mf859':'linear',[0 0 0 0 0 0 0]
+MF860='out1mf860':'linear',[0 0 0 0 0 0 0]
+MF861='out1mf861':'linear',[0 0 0 0 0 0 0]
+MF862='out1mf862':'linear',[0 0 0 0 0 0 0]
+MF863='out1mf863':'linear',[0 0 0 0 0 0 0]
+MF864='out1mf864':'linear',[0 0 0 0 0 0 0]
+MF865='out1mf865':'linear',[0 0 0 0 0 0 0]
+MF866='out1mf866':'linear',[0 0 0 0 0 0 0]
+MF867='out1mf867':'linear',[0 0 0 0 0 0 0]
+MF868='out1mf868':'linear',[0 0 0 0 0 0 0]
+MF869='out1mf869':'linear',[0 0 0 0 0 0 0]
+MF870='out1mf870':'linear',[0 0 0 0 0 0 0]
+MF871='out1mf871':'linear',[0 0 0 0 0 0 0]
+MF872='out1mf872':'linear',[0 0 0 0 0 0 0]
+MF873='out1mf873':'linear',[0 0 0 0 0 0 0]
+MF874='out1mf874':'linear',[0 0 0 0 0 0 0]
+MF875='out1mf875':'linear',[0 0 0 0 0 0 0]
+MF876='out1mf876':'linear',[0 0 0 0 0 0 0]
+MF877='out1mf877':'linear',[0 0 0 0 0 0 0]
+MF878='out1mf878':'linear',[0 0 0 0 0 0 0]
+MF879='out1mf879':'linear',[0 0 0 0 0 0 0]
+MF880='out1mf880':'linear',[0 0 0 0 0 0 0]
+MF881='out1mf881':'linear',[0 0 0 0 0 0 0]
+MF882='out1mf882':'linear',[0 0 0 0 0 0 0]
+MF883='out1mf883':'linear',[0 0 0 0 0 0 0]
+MF884='out1mf884':'linear',[0 0 0 0 0 0 0]
+MF885='out1mf885':'linear',[0 0 0 0 0 0 0]
+MF886='out1mf886':'linear',[0 0 0 0 0 0 0]
+MF887='out1mf887':'linear',[0 0 0 0 0 0 0]
+MF888='out1mf888':'linear',[0 0 0 0 0 0 0]
+MF889='out1mf889':'linear',[0 0 0 0 0 0 0]
+MF890='out1mf890':'linear',[0 0 0 0 0 0 0]
+MF891='out1mf891':'linear',[0 0 0 0 0 0 0]
+MF892='out1mf892':'linear',[0 0 0 0 0 0 0]
+MF893='out1mf893':'linear',[0 0 0 0 0 0 0]
+MF894='out1mf894':'linear',[0 0 0 0 0 0 0]
+MF895='out1mf895':'linear',[0 0 0 0 0 0 0]
+MF896='out1mf896':'linear',[0 0 0 0 0 0 0]
+MF897='out1mf897':'linear',[0 0 0 0 0 0 0]
+MF898='out1mf898':'linear',[0 0 0 0 0 0 0]
+MF899='out1mf899':'linear',[0 0 0 0 0 0 0]
+MF900='out1mf900':'linear',[0 0 0 0 0 0 0]
+MF901='out1mf901':'linear',[0 0 0 0 0 0 0]
+MF902='out1mf902':'linear',[0 0 0 0 0 0 0]
+MF903='out1mf903':'linear',[0 0 0 0 0 0 0]
+MF904='out1mf904':'linear',[0 0 0 0 0 0 0]
+MF905='out1mf905':'linear',[0 0 0 0 0 0 0]
+MF906='out1mf906':'linear',[0 0 0 0 0 0 0]
+MF907='out1mf907':'linear',[0 0 0 0 0 0 0]
+MF908='out1mf908':'linear',[0 0 0 0 0 0 0]
+MF909='out1mf909':'linear',[0 0 0 0 0 0 0]
+MF910='out1mf910':'linear',[0 0 0 0 0 0 0]
+MF911='out1mf911':'linear',[0 0 0 0 0 0 0]
+MF912='out1mf912':'linear',[0 0 0 0 0 0 0]
+MF913='out1mf913':'linear',[0 0 0 0 0 0 0]
+MF914='out1mf914':'linear',[0 0 0 0 0 0 0]
+MF915='out1mf915':'linear',[0 0 0 0 0 0 0]
+MF916='out1mf916':'linear',[0 0 0 0 0 0 0]
+MF917='out1mf917':'linear',[0 0 0 0 0 0 0]
+MF918='out1mf918':'linear',[0 0 0 0 0 0 0]
+MF919='out1mf919':'linear',[0 0 0 0 0 0 0]
+MF920='out1mf920':'linear',[0 0 0 0 0 0 0]
+MF921='out1mf921':'linear',[0 0 0 0 0 0 0]
+MF922='out1mf922':'linear',[0 0 0 0 0 0 0]
+MF923='out1mf923':'linear',[0 0 0 0 0 0 0]
+MF924='out1mf924':'linear',[0 0 0 0 0 0 0]
+MF925='out1mf925':'linear',[0 0 0 0 0 0 0]
+MF926='out1mf926':'linear',[0 0 0 0 0 0 0]
+MF927='out1mf927':'linear',[0 0 0 0 0 0 0]
+MF928='out1mf928':'linear',[0 0 0 0 0 0 0]
+MF929='out1mf929':'linear',[0 0 0 0 0 0 0]
+MF930='out1mf930':'linear',[0 0 0 0 0 0 0]
+MF931='out1mf931':'linear',[0 0 0 0 0 0 0]
+MF932='out1mf932':'linear',[0 0 0 0 0 0 0]
+MF933='out1mf933':'linear',[0 0 0 0 0 0 0]
+MF934='out1mf934':'linear',[0 0 0 0 0 0 0]
+MF935='out1mf935':'linear',[0 0 0 0 0 0 0]
+MF936='out1mf936':'linear',[0 0 0 0 0 0 0]
+MF937='out1mf937':'linear',[0 0 0 0 0 0 0]
+MF938='out1mf938':'linear',[0 0 0 0 0 0 0]
+MF939='out1mf939':'linear',[0 0 0 0 0 0 0]
+MF940='out1mf940':'linear',[0 0 0 0 0 0 0]
+MF941='out1mf941':'linear',[0 0 0 0 0 0 0]
+MF942='out1mf942':'linear',[0 0 0 0 0 0 0]
+MF943='out1mf943':'linear',[0 0 0 0 0 0 0]
+MF944='out1mf944':'linear',[0 0 0 0 0 0 0]
+MF945='out1mf945':'linear',[0 0 0 0 0 0 0]
+MF946='out1mf946':'linear',[0 0 0 0 0 0 0]
+MF947='out1mf947':'linear',[0 0 0 0 0 0 0]
+MF948='out1mf948':'linear',[0 0 0 0 0 0 0]
+MF949='out1mf949':'linear',[0 0 0 0 0 0 0]
+MF950='out1mf950':'linear',[0 0 0 0 0 0 0]
+MF951='out1mf951':'linear',[0 0 0 0 0 0 0]
+MF952='out1mf952':'linear',[0 0 0 0 0 0 0]
+MF953='out1mf953':'linear',[0 0 0 0 0 0 0]
+MF954='out1mf954':'linear',[0 0 0 0 0 0 0]
+MF955='out1mf955':'linear',[0 0 0 0 0 0 0]
+MF956='out1mf956':'linear',[0 0 0 0 0 0 0]
+MF957='out1mf957':'linear',[0 0 0 0 0 0 0]
+MF958='out1mf958':'linear',[0 0 0 0 0 0 0]
+MF959='out1mf959':'linear',[0 0 0 0 0 0 0]
+MF960='out1mf960':'linear',[0 0 0 0 0 0 0]
+MF961='out1mf961':'linear',[0 0 0 0 0 0 0]
+MF962='out1mf962':'linear',[0 0 0 0 0 0 0]
+MF963='out1mf963':'linear',[0 0 0 0 0 0 0]
+MF964='out1mf964':'linear',[0 0 0 0 0 0 0]
+MF965='out1mf965':'linear',[0 0 0 0 0 0 0]
+MF966='out1mf966':'linear',[0 0 0 0 0 0 0]
+MF967='out1mf967':'linear',[0 0 0 0 0 0 0]
+MF968='out1mf968':'linear',[0 0 0 0 0 0 0]
+MF969='out1mf969':'linear',[0 0 0 0 0 0 0]
+MF970='out1mf970':'linear',[0 0 0 0 0 0 0]
+MF971='out1mf971':'linear',[0 0 0 0 0 0 0]
+MF972='out1mf972':'linear',[0 0 0 0 0 0 0]
+
+[Rules]
+1 1 1 1 1 1, 1 (1) : 1
+1 1 1 1 1 2, 2 (1) : 1
+1 1 1 1 1 3, 3 (1) : 1
+1 1 1 1 2 1, 4 (1) : 1
+1 1 1 1 2 2, 5 (1) : 1
+1 1 1 1 2 3, 6 (1) : 1
+1 1 1 1 3 1, 7 (1) : 1
+1 1 1 1 3 2, 8 (1) : 1
+1 1 1 1 3 3, 9 (1) : 1
+1 1 1 2 1 1, 10 (1) : 1
+1 1 1 2 1 2, 11 (1) : 1
+1 1 1 2 1 3, 12 (1) : 1
+1 1 1 2 2 1, 13 (1) : 1
+1 1 1 2 2 2, 14 (1) : 1
+1 1 1 2 2 3, 15 (1) : 1
+1 1 1 2 3 1, 16 (1) : 1
+1 1 1 2 3 2, 17 (1) : 1
+1 1 1 2 3 3, 18 (1) : 1
+1 1 1 3 1 1, 19 (1) : 1
+1 1 1 3 1 2, 20 (1) : 1
+1 1 1 3 1 3, 21 (1) : 1
+1 1 1 3 2 1, 22 (1) : 1
+1 1 1 3 2 2, 23 (1) : 1
+1 1 1 3 2 3, 24 (1) : 1
+1 1 1 3 3 1, 25 (1) : 1
+1 1 1 3 3 2, 26 (1) : 1
+1 1 1 3 3 3, 27 (1) : 1
+1 1 2 1 1 1, 28 (1) : 1
+1 1 2 1 1 2, 29 (1) : 1
+1 1 2 1 1 3, 30 (1) : 1
+1 1 2 1 2 1, 31 (1) : 1
+1 1 2 1 2 2, 32 (1) : 1
+1 1 2 1 2 3, 33 (1) : 1
+1 1 2 1 3 1, 34 (1) : 1
+1 1 2 1 3 2, 35 (1) : 1
+1 1 2 1 3 3, 36 (1) : 1
+1 1 2 2 1 1, 37 (1) : 1
+1 1 2 2 1 2, 38 (1) : 1
+1 1 2 2 1 3, 39 (1) : 1
+1 1 2 2 2 1, 40 (1) : 1
+1 1 2 2 2 2, 41 (1) : 1
+1 1 2 2 2 3, 42 (1) : 1
+1 1 2 2 3 1, 43 (1) : 1
+1 1 2 2 3 2, 44 (1) : 1
+1 1 2 2 3 3, 45 (1) : 1
+1 1 2 3 1 1, 46 (1) : 1
+1 1 2 3 1 2, 47 (1) : 1
+1 1 2 3 1 3, 48 (1) : 1
+1 1 2 3 2 1, 49 (1) : 1
+1 1 2 3 2 2, 50 (1) : 1
+1 1 2 3 2 3, 51 (1) : 1
+1 1 2 3 3 1, 52 (1) : 1
+1 1 2 3 3 2, 53 (1) : 1
+1 1 2 3 3 3, 54 (1) : 1
+1 1 3 1 1 1, 55 (1) : 1
+1 1 3 1 1 2, 56 (1) : 1
+1 1 3 1 1 3, 57 (1) : 1
+1 1 3 1 2 1, 58 (1) : 1
+1 1 3 1 2 2, 59 (1) : 1
+1 1 3 1 2 3, 60 (1) : 1
+1 1 3 1 3 1, 61 (1) : 1
+1 1 3 1 3 2, 62 (1) : 1
+1 1 3 1 3 3, 63 (1) : 1
+1 1 3 2 1 1, 64 (1) : 1
+1 1 3 2 1 2, 65 (1) : 1
+1 1 3 2 1 3, 66 (1) : 1
+1 1 3 2 2 1, 67 (1) : 1
+1 1 3 2 2 2, 68 (1) : 1
+1 1 3 2 2 3, 69 (1) : 1
+1 1 3 2 3 1, 70 (1) : 1
+1 1 3 2 3 2, 71 (1) : 1
+1 1 3 2 3 3, 72 (1) : 1
+1 1 3 3 1 1, 73 (1) : 1
+1 1 3 3 1 2, 74 (1) : 1
+1 1 3 3 1 3, 75 (1) : 1
+1 1 3 3 2 1, 76 (1) : 1
+1 1 3 3 2 2, 77 (1) : 1
+1 1 3 3 2 3, 78 (1) : 1
+1 1 3 3 3 1, 79 (1) : 1
+1 1 3 3 3 2, 80 (1) : 1
+1 1 3 3 3 3, 81 (1) : 1
+1 2 1 1 1 1, 82 (1) : 1
+1 2 1 1 1 2, 83 (1) : 1
+1 2 1 1 1 3, 84 (1) : 1
+1 2 1 1 2 1, 85 (1) : 1
+1 2 1 1 2 2, 86 (1) : 1
+1 2 1 1 2 3, 87 (1) : 1
+1 2 1 1 3 1, 88 (1) : 1
+1 2 1 1 3 2, 89 (1) : 1
+1 2 1 1 3 3, 90 (1) : 1
+1 2 1 2 1 1, 91 (1) : 1
+1 2 1 2 1 2, 92 (1) : 1
+1 2 1 2 1 3, 93 (1) : 1
+1 2 1 2 2 1, 94 (1) : 1
+1 2 1 2 2 2, 95 (1) : 1
+1 2 1 2 2 3, 96 (1) : 1
+1 2 1 2 3 1, 97 (1) : 1
+1 2 1 2 3 2, 98 (1) : 1
+1 2 1 2 3 3, 99 (1) : 1
+1 2 1 3 1 1, 100 (1) : 1
+1 2 1 3 1 2, 101 (1) : 1
+1 2 1 3 1 3, 102 (1) : 1
+1 2 1 3 2 1, 103 (1) : 1
+1 2 1 3 2 2, 104 (1) : 1
+1 2 1 3 2 3, 105 (1) : 1
+1 2 1 3 3 1, 106 (1) : 1
+1 2 1 3 3 2, 107 (1) : 1
+1 2 1 3 3 3, 108 (1) : 1
+1 2 2 1 1 1, 109 (1) : 1
+1 2 2 1 1 2, 110 (1) : 1
+1 2 2 1 1 3, 111 (1) : 1
+1 2 2 1 2 1, 112 (1) : 1
+1 2 2 1 2 2, 113 (1) : 1
+1 2 2 1 2 3, 114 (1) : 1
+1 2 2 1 3 1, 115 (1) : 1
+1 2 2 1 3 2, 116 (1) : 1
+1 2 2 1 3 3, 117 (1) : 1
+1 2 2 2 1 1, 118 (1) : 1
+1 2 2 2 1 2, 119 (1) : 1
+1 2 2 2 1 3, 120 (1) : 1
+1 2 2 2 2 1, 121 (1) : 1
+1 2 2 2 2 2, 122 (1) : 1
+1 2 2 2 2 3, 123 (1) : 1
+1 2 2 2 3 1, 124 (1) : 1
+1 2 2 2 3 2, 125 (1) : 1
+1 2 2 2 3 3, 126 (1) : 1
+1 2 2 3 1 1, 127 (1) : 1
+1 2 2 3 1 2, 128 (1) : 1
+1 2 2 3 1 3, 129 (1) : 1
+1 2 2 3 2 1, 130 (1) : 1
+1 2 2 3 2 2, 131 (1) : 1
+1 2 2 3 2 3, 132 (1) : 1
+1 2 2 3 3 1, 133 (1) : 1
+1 2 2 3 3 2, 134 (1) : 1
+1 2 2 3 3 3, 135 (1) : 1
+1 2 3 1 1 1, 136 (1) : 1
+1 2 3 1 1 2, 137 (1) : 1
+1 2 3 1 1 3, 138 (1) : 1
+1 2 3 1 2 1, 139 (1) : 1
+1 2 3 1 2 2, 140 (1) : 1
+1 2 3 1 2 3, 141 (1) : 1
+1 2 3 1 3 1, 142 (1) : 1
+1 2 3 1 3 2, 143 (1) : 1
+1 2 3 1 3 3, 144 (1) : 1
+1 2 3 2 1 1, 145 (1) : 1
+1 2 3 2 1 2, 146 (1) : 1
+1 2 3 2 1 3, 147 (1) : 1
+1 2 3 2 2 1, 148 (1) : 1
+1 2 3 2 2 2, 149 (1) : 1
+1 2 3 2 2 3, 150 (1) : 1
+1 2 3 2 3 1, 151 (1) : 1
+1 2 3 2 3 2, 152 (1) : 1
+1 2 3 2 3 3, 153 (1) : 1
+1 2 3 3 1 1, 154 (1) : 1
+1 2 3 3 1 2, 155 (1) : 1
+1 2 3 3 1 3, 156 (1) : 1
+1 2 3 3 2 1, 157 (1) : 1
+1 2 3 3 2 2, 158 (1) : 1
+1 2 3 3 2 3, 159 (1) : 1
+1 2 3 3 3 1, 160 (1) : 1
+1 2 3 3 3 2, 161 (1) : 1
+1 2 3 3 3 3, 162 (1) : 1
+1 3 1 1 1 1, 163 (1) : 1
+1 3 1 1 1 2, 164 (1) : 1
+1 3 1 1 1 3, 165 (1) : 1
+1 3 1 1 2 1, 166 (1) : 1
+1 3 1 1 2 2, 167 (1) : 1
+1 3 1 1 2 3, 168 (1) : 1
+1 3 1 1 3 1, 169 (1) : 1
+1 3 1 1 3 2, 170 (1) : 1
+1 3 1 1 3 3, 171 (1) : 1
+1 3 1 2 1 1, 172 (1) : 1
+1 3 1 2 1 2, 173 (1) : 1
+1 3 1 2 1 3, 174 (1) : 1
+1 3 1 2 2 1, 175 (1) : 1
+1 3 1 2 2 2, 176 (1) : 1
+1 3 1 2 2 3, 177 (1) : 1
+1 3 1 2 3 1, 178 (1) : 1
+1 3 1 2 3 2, 179 (1) : 1
+1 3 1 2 3 3, 180 (1) : 1
+1 3 1 3 1 1, 181 (1) : 1
+1 3 1 3 1 2, 182 (1) : 1
+1 3 1 3 1 3, 183 (1) : 1
+1 3 1 3 2 1, 184 (1) : 1
+1 3 1 3 2 2, 185 (1) : 1
+1 3 1 3 2 3, 186 (1) : 1
+1 3 1 3 3 1, 187 (1) : 1
+1 3 1 3 3 2, 188 (1) : 1
+1 3 1 3 3 3, 189 (1) : 1
+1 3 2 1 1 1, 190 (1) : 1
+1 3 2 1 1 2, 191 (1) : 1
+1 3 2 1 1 3, 192 (1) : 1
+1 3 2 1 2 1, 193 (1) : 1
+1 3 2 1 2 2, 194 (1) : 1
+1 3 2 1 2 3, 195 (1) : 1
+1 3 2 1 3 1, 196 (1) : 1
+1 3 2 1 3 2, 197 (1) : 1
+1 3 2 1 3 3, 198 (1) : 1
+1 3 2 2 1 1, 199 (1) : 1
+1 3 2 2 1 2, 200 (1) : 1
+1 3 2 2 1 3, 201 (1) : 1
+1 3 2 2 2 1, 202 (1) : 1
+1 3 2 2 2 2, 203 (1) : 1
+1 3 2 2 2 3, 204 (1) : 1
+1 3 2 2 3 1, 205 (1) : 1
+1 3 2 2 3 2, 206 (1) : 1
+1 3 2 2 3 3, 207 (1) : 1
+1 3 2 3 1 1, 208 (1) : 1
+1 3 2 3 1 2, 209 (1) : 1
+1 3 2 3 1 3, 210 (1) : 1
+1 3 2 3 2 1, 211 (1) : 1
+1 3 2 3 2 2, 212 (1) : 1
+1 3 2 3 2 3, 213 (1) : 1
+1 3 2 3 3 1, 214 (1) : 1
+1 3 2 3 3 2, 215 (1) : 1
+1 3 2 3 3 3, 216 (1) : 1
+1 3 3 1 1 1, 217 (1) : 1
+1 3 3 1 1 2, 218 (1) : 1
+1 3 3 1 1 3, 219 (1) : 1
+1 3 3 1 2 1, 220 (1) : 1
+1 3 3 1 2 2, 221 (1) : 1
+1 3 3 1 2 3, 222 (1) : 1
+1 3 3 1 3 1, 223 (1) : 1
+1 3 3 1 3 2, 224 (1) : 1
+1 3 3 1 3 3, 225 (1) : 1
+1 3 3 2 1 1, 226 (1) : 1
+1 3 3 2 1 2, 227 (1) : 1
+1 3 3 2 1 3, 228 (1) : 1
+1 3 3 2 2 1, 229 (1) : 1
+1 3 3 2 2 2, 230 (1) : 1
+1 3 3 2 2 3, 231 (1) : 1
+1 3 3 2 3 1, 232 (1) : 1
+1 3 3 2 3 2, 233 (1) : 1
+1 3 3 2 3 3, 234 (1) : 1
+1 3 3 3 1 1, 235 (1) : 1
+1 3 3 3 1 2, 236 (1) : 1
+1 3 3 3 1 3, 237 (1) : 1
+1 3 3 3 2 1, 238 (1) : 1
+1 3 3 3 2 2, 239 (1) : 1
+1 3 3 3 2 3, 240 (1) : 1
+1 3 3 3 3 1, 241 (1) : 1
+1 3 3 3 3 2, 242 (1) : 1
+1 3 3 3 3 3, 243 (1) : 1
+2 1 1 1 1 1, 244 (1) : 1
+2 1 1 1 1 2, 245 (1) : 1
+2 1 1 1 1 3, 246 (1) : 1
+2 1 1 1 2 1, 247 (1) : 1
+2 1 1 1 2 2, 248 (1) : 1
+2 1 1 1 2 3, 249 (1) : 1
+2 1 1 1 3 1, 250 (1) : 1
+2 1 1 1 3 2, 251 (1) : 1
+2 1 1 1 3 3, 252 (1) : 1
+2 1 1 2 1 1, 253 (1) : 1
+2 1 1 2 1 2, 254 (1) : 1
+2 1 1 2 1 3, 255 (1) : 1
+2 1 1 2 2 1, 256 (1) : 1
+2 1 1 2 2 2, 257 (1) : 1
+2 1 1 2 2 3, 258 (1) : 1
+2 1 1 2 3 1, 259 (1) : 1
+2 1 1 2 3 2, 260 (1) : 1
+2 1 1 2 3 3, 261 (1) : 1
+2 1 1 3 1 1, 262 (1) : 1
+2 1 1 3 1 2, 263 (1) : 1
+2 1 1 3 1 3, 264 (1) : 1
+2 1 1 3 2 1, 265 (1) : 1
+2 1 1 3 2 2, 266 (1) : 1
+2 1 1 3 2 3, 267 (1) : 1
+2 1 1 3 3 1, 268 (1) : 1
+2 1 1 3 3 2, 269 (1) : 1
+2 1 1 3 3 3, 270 (1) : 1
+2 1 2 1 1 1, 271 (1) : 1
+2 1 2 1 1 2, 272 (1) : 1
+2 1 2 1 1 3, 273 (1) : 1
+2 1 2 1 2 1, 274 (1) : 1
+2 1 2 1 2 2, 275 (1) : 1
+2 1 2 1 2 3, 276 (1) : 1
+2 1 2 1 3 1, 277 (1) : 1
+2 1 2 1 3 2, 278 (1) : 1
+2 1 2 1 3 3, 279 (1) : 1
+2 1 2 2 1 1, 280 (1) : 1
+2 1 2 2 1 2, 281 (1) : 1
+2 1 2 2 1 3, 282 (1) : 1
+2 1 2 2 2 1, 283 (1) : 1
+2 1 2 2 2 2, 284 (1) : 1
+2 1 2 2 2 3, 285 (1) : 1
+2 1 2 2 3 1, 286 (1) : 1
+2 1 2 2 3 2, 287 (1) : 1
+2 1 2 2 3 3, 288 (1) : 1
+2 1 2 3 1 1, 289 (1) : 1
+2 1 2 3 1 2, 290 (1) : 1
+2 1 2 3 1 3, 291 (1) : 1
+2 1 2 3 2 1, 292 (1) : 1
+2 1 2 3 2 2, 293 (1) : 1
+2 1 2 3 2 3, 294 (1) : 1
+2 1 2 3 3 1, 295 (1) : 1
+2 1 2 3 3 2, 296 (1) : 1
+2 1 2 3 3 3, 297 (1) : 1
+2 1 3 1 1 1, 298 (1) : 1
+2 1 3 1 1 2, 299 (1) : 1
+2 1 3 1 1 3, 300 (1) : 1
+2 1 3 1 2 1, 301 (1) : 1
+2 1 3 1 2 2, 302 (1) : 1
+2 1 3 1 2 3, 303 (1) : 1
+2 1 3 1 3 1, 304 (1) : 1
+2 1 3 1 3 2, 305 (1) : 1
+2 1 3 1 3 3, 306 (1) : 1
+2 1 3 2 1 1, 307 (1) : 1
+2 1 3 2 1 2, 308 (1) : 1
+2 1 3 2 1 3, 309 (1) : 1
+2 1 3 2 2 1, 310 (1) : 1
+2 1 3 2 2 2, 311 (1) : 1
+2 1 3 2 2 3, 312 (1) : 1
+2 1 3 2 3 1, 313 (1) : 1
+2 1 3 2 3 2, 314 (1) : 1
+2 1 3 2 3 3, 315 (1) : 1
+2 1 3 3 1 1, 316 (1) : 1
+2 1 3 3 1 2, 317 (1) : 1
+2 1 3 3 1 3, 318 (1) : 1
+2 1 3 3 2 1, 319 (1) : 1
+2 1 3 3 2 2, 320 (1) : 1
+2 1 3 3 2 3, 321 (1) : 1
+2 1 3 3 3 1, 322 (1) : 1
+2 1 3 3 3 2, 323 (1) : 1
+2 1 3 3 3 3, 324 (1) : 1
+2 2 1 1 1 1, 325 (1) : 1
+2 2 1 1 1 2, 326 (1) : 1
+2 2 1 1 1 3, 327 (1) : 1
+2 2 1 1 2 1, 328 (1) : 1
+2 2 1 1 2 2, 329 (1) : 1
+2 2 1 1 2 3, 330 (1) : 1
+2 2 1 1 3 1, 331 (1) : 1
+2 2 1 1 3 2, 332 (1) : 1
+2 2 1 1 3 3, 333 (1) : 1
+2 2 1 2 1 1, 334 (1) : 1
+2 2 1 2 1 2, 335 (1) : 1
+2 2 1 2 1 3, 336 (1) : 1
+2 2 1 2 2 1, 337 (1) : 1
+2 2 1 2 2 2, 338 (1) : 1
+2 2 1 2 2 3, 339 (1) : 1
+2 2 1 2 3 1, 340 (1) : 1
+2 2 1 2 3 2, 341 (1) : 1
+2 2 1 2 3 3, 342 (1) : 1
+2 2 1 3 1 1, 343 (1) : 1
+2 2 1 3 1 2, 344 (1) : 1
+2 2 1 3 1 3, 345 (1) : 1
+2 2 1 3 2 1, 346 (1) : 1
+2 2 1 3 2 2, 347 (1) : 1
+2 2 1 3 2 3, 348 (1) : 1
+2 2 1 3 3 1, 349 (1) : 1
+2 2 1 3 3 2, 350 (1) : 1
+2 2 1 3 3 3, 351 (1) : 1
+2 2 2 1 1 1, 352 (1) : 1
+2 2 2 1 1 2, 353 (1) : 1
+2 2 2 1 1 3, 354 (1) : 1
+2 2 2 1 2 1, 355 (1) : 1
+2 2 2 1 2 2, 356 (1) : 1
+2 2 2 1 2 3, 357 (1) : 1
+2 2 2 1 3 1, 358 (1) : 1
+2 2 2 1 3 2, 359 (1) : 1
+2 2 2 1 3 3, 360 (1) : 1
+2 2 2 2 1 1, 361 (1) : 1
+2 2 2 2 1 2, 362 (1) : 1
+2 2 2 2 1 3, 363 (1) : 1
+2 2 2 2 2 1, 364 (1) : 1
+2 2 2 2 2 2, 365 (1) : 1
+2 2 2 2 2 3, 366 (1) : 1
+2 2 2 2 3 1, 367 (1) : 1
+2 2 2 2 3 2, 368 (1) : 1
+2 2 2 2 3 3, 369 (1) : 1
+2 2 2 3 1 1, 370 (1) : 1
+2 2 2 3 1 2, 371 (1) : 1
+2 2 2 3 1 3, 372 (1) : 1
+2 2 2 3 2 1, 373 (1) : 1
+2 2 2 3 2 2, 374 (1) : 1
+2 2 2 3 2 3, 375 (1) : 1
+2 2 2 3 3 1, 376 (1) : 1
+2 2 2 3 3 2, 377 (1) : 1
+2 2 2 3 3 3, 378 (1) : 1
+2 2 3 1 1 1, 379 (1) : 1
+2 2 3 1 1 2, 380 (1) : 1
+2 2 3 1 1 3, 381 (1) : 1
+2 2 3 1 2 1, 382 (1) : 1
+2 2 3 1 2 2, 383 (1) : 1
+2 2 3 1 2 3, 384 (1) : 1
+2 2 3 1 3 1, 385 (1) : 1
+2 2 3 1 3 2, 386 (1) : 1
+2 2 3 1 3 3, 387 (1) : 1
+2 2 3 2 1 1, 388 (1) : 1
+2 2 3 2 1 2, 389 (1) : 1
+2 2 3 2 1 3, 390 (1) : 1
+2 2 3 2 2 1, 391 (1) : 1
+2 2 3 2 2 2, 392 (1) : 1
+2 2 3 2 2 3, 393 (1) : 1
+2 2 3 2 3 1, 394 (1) : 1
+2 2 3 2 3 2, 395 (1) : 1
+2 2 3 2 3 3, 396 (1) : 1
+2 2 3 3 1 1, 397 (1) : 1
+2 2 3 3 1 2, 398 (1) : 1
+2 2 3 3 1 3, 399 (1) : 1
+2 2 3 3 2 1, 400 (1) : 1
+2 2 3 3 2 2, 401 (1) : 1
+2 2 3 3 2 3, 402 (1) : 1
+2 2 3 3 3 1, 403 (1) : 1
+2 2 3 3 3 2, 404 (1) : 1
+2 2 3 3 3 3, 405 (1) : 1
+2 3 1 1 1 1, 406 (1) : 1
+2 3 1 1 1 2, 407 (1) : 1
+2 3 1 1 1 3, 408 (1) : 1
+2 3 1 1 2 1, 409 (1) : 1
+2 3 1 1 2 2, 410 (1) : 1
+2 3 1 1 2 3, 411 (1) : 1
+2 3 1 1 3 1, 412 (1) : 1
+2 3 1 1 3 2, 413 (1) : 1
+2 3 1 1 3 3, 414 (1) : 1
+2 3 1 2 1 1, 415 (1) : 1
+2 3 1 2 1 2, 416 (1) : 1
+2 3 1 2 1 3, 417 (1) : 1
+2 3 1 2 2 1, 418 (1) : 1
+2 3 1 2 2 2, 419 (1) : 1
+2 3 1 2 2 3, 420 (1) : 1
+2 3 1 2 3 1, 421 (1) : 1
+2 3 1 2 3 2, 422 (1) : 1
+2 3 1 2 3 3, 423 (1) : 1
+2 3 1 3 1 1, 424 (1) : 1
+2 3 1 3 1 2, 425 (1) : 1
+2 3 1 3 1 3, 426 (1) : 1
+2 3 1 3 2 1, 427 (1) : 1
+2 3 1 3 2 2, 428 (1) : 1
+2 3 1 3 2 3, 429 (1) : 1
+2 3 1 3 3 1, 430 (1) : 1
+2 3 1 3 3 2, 431 (1) : 1
+2 3 1 3 3 3, 432 (1) : 1
+2 3 2 1 1 1, 433 (1) : 1
+2 3 2 1 1 2, 434 (1) : 1
+2 3 2 1 1 3, 435 (1) : 1
+2 3 2 1 2 1, 436 (1) : 1
+2 3 2 1 2 2, 437 (1) : 1
+2 3 2 1 2 3, 438 (1) : 1
+2 3 2 1 3 1, 439 (1) : 1
+2 3 2 1 3 2, 440 (1) : 1
+2 3 2 1 3 3, 441 (1) : 1
+2 3 2 2 1 1, 442 (1) : 1
+2 3 2 2 1 2, 443 (1) : 1
+2 3 2 2 1 3, 444 (1) : 1
+2 3 2 2 2 1, 445 (1) : 1
+2 3 2 2 2 2, 446 (1) : 1
+2 3 2 2 2 3, 447 (1) : 1
+2 3 2 2 3 1, 448 (1) : 1
+2 3 2 2 3 2, 449 (1) : 1
+2 3 2 2 3 3, 450 (1) : 1
+2 3 2 3 1 1, 451 (1) : 1
+2 3 2 3 1 2, 452 (1) : 1
+2 3 2 3 1 3, 453 (1) : 1
+2 3 2 3 2 1, 454 (1) : 1
+2 3 2 3 2 2, 455 (1) : 1
+2 3 2 3 2 3, 456 (1) : 1
+2 3 2 3 3 1, 457 (1) : 1
+2 3 2 3 3 2, 458 (1) : 1
+2 3 2 3 3 3, 459 (1) : 1
+2 3 3 1 1 1, 460 (1) : 1
+2 3 3 1 1 2, 461 (1) : 1
+2 3 3 1 1 3, 462 (1) : 1
+2 3 3 1 2 1, 463 (1) : 1
+2 3 3 1 2 2, 464 (1) : 1
+2 3 3 1 2 3, 465 (1) : 1
+2 3 3 1 3 1, 466 (1) : 1
+2 3 3 1 3 2, 467 (1) : 1
+2 3 3 1 3 3, 468 (1) : 1
+2 3 3 2 1 1, 469 (1) : 1
+2 3 3 2 1 2, 470 (1) : 1
+2 3 3 2 1 3, 471 (1) : 1
+2 3 3 2 2 1, 472 (1) : 1
+2 3 3 2 2 2, 473 (1) : 1
+2 3 3 2 2 3, 474 (1) : 1
+2 3 3 2 3 1, 475 (1) : 1
+2 3 3 2 3 2, 476 (1) : 1
+2 3 3 2 3 3, 477 (1) : 1
+2 3 3 3 1 1, 478 (1) : 1
+2 3 3 3 1 2, 479 (1) : 1
+2 3 3 3 1 3, 480 (1) : 1
+2 3 3 3 2 1, 481 (1) : 1
+2 3 3 3 2 2, 482 (1) : 1
+2 3 3 3 2 3, 483 (1) : 1
+2 3 3 3 3 1, 484 (1) : 1
+2 3 3 3 3 2, 485 (1) : 1
+2 3 3 3 3 3, 486 (1) : 1
+3 1 1 1 1 1, 487 (1) : 1
+3 1 1 1 1 2, 488 (1) : 1
+3 1 1 1 1 3, 489 (1) : 1
+3 1 1 1 2 1, 490 (1) : 1
+3 1 1 1 2 2, 491 (1) : 1
+3 1 1 1 2 3, 492 (1) : 1
+3 1 1 1 3 1, 493 (1) : 1
+3 1 1 1 3 2, 494 (1) : 1
+3 1 1 1 3 3, 495 (1) : 1
+3 1 1 2 1 1, 496 (1) : 1
+3 1 1 2 1 2, 497 (1) : 1
+3 1 1 2 1 3, 498 (1) : 1
+3 1 1 2 2 1, 499 (1) : 1
+3 1 1 2 2 2, 500 (1) : 1
+3 1 1 2 2 3, 501 (1) : 1
+3 1 1 2 3 1, 502 (1) : 1
+3 1 1 2 3 2, 503 (1) : 1
+3 1 1 2 3 3, 504 (1) : 1
+3 1 1 3 1 1, 505 (1) : 1
+3 1 1 3 1 2, 506 (1) : 1
+3 1 1 3 1 3, 507 (1) : 1
+3 1 1 3 2 1, 508 (1) : 1
+3 1 1 3 2 2, 509 (1) : 1
+3 1 1 3 2 3, 510 (1) : 1
+3 1 1 3 3 1, 511 (1) : 1
+3 1 1 3 3 2, 512 (1) : 1
+3 1 1 3 3 3, 513 (1) : 1
+3 1 2 1 1 1, 514 (1) : 1
+3 1 2 1 1 2, 515 (1) : 1
+3 1 2 1 1 3, 516 (1) : 1
+3 1 2 1 2 1, 517 (1) : 1
+3 1 2 1 2 2, 518 (1) : 1
+3 1 2 1 2 3, 519 (1) : 1
+3 1 2 1 3 1, 520 (1) : 1
+3 1 2 1 3 2, 521 (1) : 1
+3 1 2 1 3 3, 522 (1) : 1
+3 1 2 2 1 1, 523 (1) : 1
+3 1 2 2 1 2, 524 (1) : 1
+3 1 2 2 1 3, 525 (1) : 1
+3 1 2 2 2 1, 526 (1) : 1
+3 1 2 2 2 2, 527 (1) : 1
+3 1 2 2 2 3, 528 (1) : 1
+3 1 2 2 3 1, 529 (1) : 1
+3 1 2 2 3 2, 530 (1) : 1
+3 1 2 2 3 3, 531 (1) : 1
+3 1 2 3 1 1, 532 (1) : 1
+3 1 2 3 1 2, 533 (1) : 1
+3 1 2 3 1 3, 534 (1) : 1
+3 1 2 3 2 1, 535 (1) : 1
+3 1 2 3 2 2, 536 (1) : 1
+3 1 2 3 2 3, 537 (1) : 1
+3 1 2 3 3 1, 538 (1) : 1
+3 1 2 3 3 2, 539 (1) : 1
+3 1 2 3 3 3, 540 (1) : 1
+3 1 3 1 1 1, 541 (1) : 1
+3 1 3 1 1 2, 542 (1) : 1
+3 1 3 1 1 3, 543 (1) : 1
+3 1 3 1 2 1, 544 (1) : 1
+3 1 3 1 2 2, 545 (1) : 1
+3 1 3 1 2 3, 546 (1) : 1
+3 1 3 1 3 1, 547 (1) : 1
+3 1 3 1 3 2, 548 (1) : 1
+3 1 3 1 3 3, 549 (1) : 1
+3 1 3 2 1 1, 550 (1) : 1
+3 1 3 2 1 2, 551 (1) : 1
+3 1 3 2 1 3, 552 (1) : 1
+3 1 3 2 2 1, 553 (1) : 1
+3 1 3 2 2 2, 554 (1) : 1
+3 1 3 2 2 3, 555 (1) : 1
+3 1 3 2 3 1, 556 (1) : 1
+3 1 3 2 3 2, 557 (1) : 1
+3 1 3 2 3 3, 558 (1) : 1
+3 1 3 3 1 1, 559 (1) : 1
+3 1 3 3 1 2, 560 (1) : 1
+3 1 3 3 1 3, 561 (1) : 1
+3 1 3 3 2 1, 562 (1) : 1
+3 1 3 3 2 2, 563 (1) : 1
+3 1 3 3 2 3, 564 (1) : 1
+3 1 3 3 3 1, 565 (1) : 1
+3 1 3 3 3 2, 566 (1) : 1
+3 1 3 3 3 3, 567 (1) : 1
+3 2 1 1 1 1, 568 (1) : 1
+3 2 1 1 1 2, 569 (1) : 1
+3 2 1 1 1 3, 570 (1) : 1
+3 2 1 1 2 1, 571 (1) : 1
+3 2 1 1 2 2, 572 (1) : 1
+3 2 1 1 2 3, 573 (1) : 1
+3 2 1 1 3 1, 574 (1) : 1
+3 2 1 1 3 2, 575 (1) : 1
+3 2 1 1 3 3, 576 (1) : 1
+3 2 1 2 1 1, 577 (1) : 1
+3 2 1 2 1 2, 578 (1) : 1
+3 2 1 2 1 3, 579 (1) : 1
+3 2 1 2 2 1, 580 (1) : 1
+3 2 1 2 2 2, 581 (1) : 1
+3 2 1 2 2 3, 582 (1) : 1
+3 2 1 2 3 1, 583 (1) : 1
+3 2 1 2 3 2, 584 (1) : 1
+3 2 1 2 3 3, 585 (1) : 1
+3 2 1 3 1 1, 586 (1) : 1
+3 2 1 3 1 2, 587 (1) : 1
+3 2 1 3 1 3, 588 (1) : 1
+3 2 1 3 2 1, 589 (1) : 1
+3 2 1 3 2 2, 590 (1) : 1
+3 2 1 3 2 3, 591 (1) : 1
+3 2 1 3 3 1, 592 (1) : 1
+3 2 1 3 3 2, 593 (1) : 1
+3 2 1 3 3 3, 594 (1) : 1
+3 2 2 1 1 1, 595 (1) : 1
+3 2 2 1 1 2, 596 (1) : 1
+3 2 2 1 1 3, 597 (1) : 1
+3 2 2 1 2 1, 598 (1) : 1
+3 2 2 1 2 2, 599 (1) : 1
+3 2 2 1 2 3, 600 (1) : 1
+3 2 2 1 3 1, 601 (1) : 1
+3 2 2 1 3 2, 602 (1) : 1
+3 2 2 1 3 3, 603 (1) : 1
+3 2 2 2 1 1, 604 (1) : 1
+3 2 2 2 1 2, 605 (1) : 1
+3 2 2 2 1 3, 606 (1) : 1
+3 2 2 2 2 1, 607 (1) : 1
+3 2 2 2 2 2, 608 (1) : 1
+3 2 2 2 2 3, 609 (1) : 1
+3 2 2 2 3 1, 610 (1) : 1
+3 2 2 2 3 2, 611 (1) : 1
+3 2 2 2 3 3, 612 (1) : 1
+3 2 2 3 1 1, 613 (1) : 1
+3 2 2 3 1 2, 614 (1) : 1
+3 2 2 3 1 3, 615 (1) : 1
+3 2 2 3 2 1, 616 (1) : 1
+3 2 2 3 2 2, 617 (1) : 1
+3 2 2 3 2 3, 618 (1) : 1
+3 2 2 3 3 1, 619 (1) : 1
+3 2 2 3 3 2, 620 (1) : 1
+3 2 2 3 3 3, 621 (1) : 1
+3 2 3 1 1 1, 622 (1) : 1
+3 2 3 1 1 2, 623 (1) : 1
+3 2 3 1 1 3, 624 (1) : 1
+3 2 3 1 2 1, 625 (1) : 1
+3 2 3 1 2 2, 626 (1) : 1
+3 2 3 1 2 3, 627 (1) : 1
+3 2 3 1 3 1, 628 (1) : 1
+3 2 3 1 3 2, 629 (1) : 1
+3 2 3 1 3 3, 630 (1) : 1
+3 2 3 2 1 1, 631 (1) : 1
+3 2 3 2 1 2, 632 (1) : 1
+3 2 3 2 1 3, 633 (1) : 1
+3 2 3 2 2 1, 634 (1) : 1
+3 2 3 2 2 2, 635 (1) : 1
+3 2 3 2 2 3, 636 (1) : 1
+3 2 3 2 3 1, 637 (1) : 1
+3 2 3 2 3 2, 638 (1) : 1
+3 2 3 2 3 3, 639 (1) : 1
+3 2 3 3 1 1, 640 (1) : 1
+3 2 3 3 1 2, 641 (1) : 1
+3 2 3 3 1 3, 642 (1) : 1
+3 2 3 3 2 1, 643 (1) : 1
+3 2 3 3 2 2, 644 (1) : 1
+3 2 3 3 2 3, 645 (1) : 1
+3 2 3 3 3 1, 646 (1) : 1
+3 2 3 3 3 2, 647 (1) : 1
+3 2 3 3 3 3, 648 (1) : 1
+3 3 1 1 1 1, 649 (1) : 1
+3 3 1 1 1 2, 650 (1) : 1
+3 3 1 1 1 3, 651 (1) : 1
+3 3 1 1 2 1, 652 (1) : 1
+3 3 1 1 2 2, 653 (1) : 1
+3 3 1 1 2 3, 654 (1) : 1
+3 3 1 1 3 1, 655 (1) : 1
+3 3 1 1 3 2, 656 (1) : 1
+3 3 1 1 3 3, 657 (1) : 1
+3 3 1 2 1 1, 658 (1) : 1
+3 3 1 2 1 2, 659 (1) : 1
+3 3 1 2 1 3, 660 (1) : 1
+3 3 1 2 2 1, 661 (1) : 1
+3 3 1 2 2 2, 662 (1) : 1
+3 3 1 2 2 3, 663 (1) : 1
+3 3 1 2 3 1, 664 (1) : 1
+3 3 1 2 3 2, 665 (1) : 1
+3 3 1 2 3 3, 666 (1) : 1
+3 3 1 3 1 1, 667 (1) : 1
+3 3 1 3 1 2, 668 (1) : 1
+3 3 1 3 1 3, 669 (1) : 1
+3 3 1 3 2 1, 670 (1) : 1
+3 3 1 3 2 2, 671 (1) : 1
+3 3 1 3 2 3, 672 (1) : 1
+3 3 1 3 3 1, 673 (1) : 1
+3 3 1 3 3 2, 674 (1) : 1
+3 3 1 3 3 3, 675 (1) : 1
+3 3 2 1 1 1, 676 (1) : 1
+3 3 2 1 1 2, 677 (1) : 1
+3 3 2 1 1 3, 678 (1) : 1
+3 3 2 1 2 1, 679 (1) : 1
+3 3 2 1 2 2, 680 (1) : 1
+3 3 2 1 2 3, 681 (1) : 1
+3 3 2 1 3 1, 682 (1) : 1
+3 3 2 1 3 2, 683 (1) : 1
+3 3 2 1 3 3, 684 (1) : 1
+3 3 2 2 1 1, 685 (1) : 1
+3 3 2 2 1 2, 686 (1) : 1
+3 3 2 2 1 3, 687 (1) : 1
+3 3 2 2 2 1, 688 (1) : 1
+3 3 2 2 2 2, 689 (1) : 1
+3 3 2 2 2 3, 690 (1) : 1
+3 3 2 2 3 1, 691 (1) : 1
+3 3 2 2 3 2, 692 (1) : 1
+3 3 2 2 3 3, 693 (1) : 1
+3 3 2 3 1 1, 694 (1) : 1
+3 3 2 3 1 2, 695 (1) : 1
+3 3 2 3 1 3, 696 (1) : 1
+3 3 2 3 2 1, 697 (1) : 1
+3 3 2 3 2 2, 698 (1) : 1
+3 3 2 3 2 3, 699 (1) : 1
+3 3 2 3 3 1, 700 (1) : 1
+3 3 2 3 3 2, 701 (1) : 1
+3 3 2 3 3 3, 702 (1) : 1
+3 3 3 1 1 1, 703 (1) : 1
+3 3 3 1 1 2, 704 (1) : 1
+3 3 3 1 1 3, 705 (1) : 1
+3 3 3 1 2 1, 706 (1) : 1
+3 3 3 1 2 2, 707 (1) : 1
+3 3 3 1 2 3, 708 (1) : 1
+3 3 3 1 3 1, 709 (1) : 1
+3 3 3 1 3 2, 710 (1) : 1
+3 3 3 1 3 3, 711 (1) : 1
+3 3 3 2 1 1, 712 (1) : 1
+3 3 3 2 1 2, 713 (1) : 1
+3 3 3 2 1 3, 714 (1) : 1
+3 3 3 2 2 1, 715 (1) : 1
+3 3 3 2 2 2, 716 (1) : 1
+3 3 3 2 2 3, 717 (1) : 1
+3 3 3 2 3 1, 718 (1) : 1
+3 3 3 2 3 2, 719 (1) : 1
+3 3 3 2 3 3, 720 (1) : 1
+3 3 3 3 1 1, 721 (1) : 1
+3 3 3 3 1 2, 722 (1) : 1
+3 3 3 3 1 3, 723 (1) : 1
+3 3 3 3 2 1, 724 (1) : 1
+3 3 3 3 2 2, 725 (1) : 1
+3 3 3 3 2 3, 726 (1) : 1
+3 3 3 3 3 1, 727 (1) : 1
+3 3 3 3 3 2, 728 (1) : 1
+3 3 3 3 3 3, 729 (1) : 1
+4 1 1 1 1 1, 730 (1) : 1
+4 1 1 1 1 2, 731 (1) : 1
+4 1 1 1 1 3, 732 (1) : 1
+4 1 1 1 2 1, 733 (1) : 1
+4 1 1 1 2 2, 734 (1) : 1
+4 1 1 1 2 3, 735 (1) : 1
+4 1 1 1 3 1, 736 (1) : 1
+4 1 1 1 3 2, 737 (1) : 1
+4 1 1 1 3 3, 738 (1) : 1
+4 1 1 2 1 1, 739 (1) : 1
+4 1 1 2 1 2, 740 (1) : 1
+4 1 1 2 1 3, 741 (1) : 1
+4 1 1 2 2 1, 742 (1) : 1
+4 1 1 2 2 2, 743 (1) : 1
+4 1 1 2 2 3, 744 (1) : 1
+4 1 1 2 3 1, 745 (1) : 1
+4 1 1 2 3 2, 746 (1) : 1
+4 1 1 2 3 3, 747 (1) : 1
+4 1 1 3 1 1, 748 (1) : 1
+4 1 1 3 1 2, 749 (1) : 1
+4 1 1 3 1 3, 750 (1) : 1
+4 1 1 3 2 1, 751 (1) : 1
+4 1 1 3 2 2, 752 (1) : 1
+4 1 1 3 2 3, 753 (1) : 1
+4 1 1 3 3 1, 754 (1) : 1
+4 1 1 3 3 2, 755 (1) : 1
+4 1 1 3 3 3, 756 (1) : 1
+4 1 2 1 1 1, 757 (1) : 1
+4 1 2 1 1 2, 758 (1) : 1
+4 1 2 1 1 3, 759 (1) : 1
+4 1 2 1 2 1, 760 (1) : 1
+4 1 2 1 2 2, 761 (1) : 1
+4 1 2 1 2 3, 762 (1) : 1
+4 1 2 1 3 1, 763 (1) : 1
+4 1 2 1 3 2, 764 (1) : 1
+4 1 2 1 3 3, 765 (1) : 1
+4 1 2 2 1 1, 766 (1) : 1
+4 1 2 2 1 2, 767 (1) : 1
+4 1 2 2 1 3, 768 (1) : 1
+4 1 2 2 2 1, 769 (1) : 1
+4 1 2 2 2 2, 770 (1) : 1
+4 1 2 2 2 3, 771 (1) : 1
+4 1 2 2 3 1, 772 (1) : 1
+4 1 2 2 3 2, 773 (1) : 1
+4 1 2 2 3 3, 774 (1) : 1
+4 1 2 3 1 1, 775 (1) : 1
+4 1 2 3 1 2, 776 (1) : 1
+4 1 2 3 1 3, 777 (1) : 1
+4 1 2 3 2 1, 778 (1) : 1
+4 1 2 3 2 2, 779 (1) : 1
+4 1 2 3 2 3, 780 (1) : 1
+4 1 2 3 3 1, 781 (1) : 1
+4 1 2 3 3 2, 782 (1) : 1
+4 1 2 3 3 3, 783 (1) : 1
+4 1 3 1 1 1, 784 (1) : 1
+4 1 3 1 1 2, 785 (1) : 1
+4 1 3 1 1 3, 786 (1) : 1
+4 1 3 1 2 1, 787 (1) : 1
+4 1 3 1 2 2, 788 (1) : 1
+4 1 3 1 2 3, 789 (1) : 1
+4 1 3 1 3 1, 790 (1) : 1
+4 1 3 1 3 2, 791 (1) : 1
+4 1 3 1 3 3, 792 (1) : 1
+4 1 3 2 1 1, 793 (1) : 1
+4 1 3 2 1 2, 794 (1) : 1
+4 1 3 2 1 3, 795 (1) : 1
+4 1 3 2 2 1, 796 (1) : 1
+4 1 3 2 2 2, 797 (1) : 1
+4 1 3 2 2 3, 798 (1) : 1
+4 1 3 2 3 1, 799 (1) : 1
+4 1 3 2 3 2, 800 (1) : 1
+4 1 3 2 3 3, 801 (1) : 1
+4 1 3 3 1 1, 802 (1) : 1
+4 1 3 3 1 2, 803 (1) : 1
+4 1 3 3 1 3, 804 (1) : 1
+4 1 3 3 2 1, 805 (1) : 1
+4 1 3 3 2 2, 806 (1) : 1
+4 1 3 3 2 3, 807 (1) : 1
+4 1 3 3 3 1, 808 (1) : 1
+4 1 3 3 3 2, 809 (1) : 1
+4 1 3 3 3 3, 810 (1) : 1
+4 2 1 1 1 1, 811 (1) : 1
+4 2 1 1 1 2, 812 (1) : 1
+4 2 1 1 1 3, 813 (1) : 1
+4 2 1 1 2 1, 814 (1) : 1
+4 2 1 1 2 2, 815 (1) : 1
+4 2 1 1 2 3, 816 (1) : 1
+4 2 1 1 3 1, 817 (1) : 1
+4 2 1 1 3 2, 818 (1) : 1
+4 2 1 1 3 3, 819 (1) : 1
+4 2 1 2 1 1, 820 (1) : 1
+4 2 1 2 1 2, 821 (1) : 1
+4 2 1 2 1 3, 822 (1) : 1
+4 2 1 2 2 1, 823 (1) : 1
+4 2 1 2 2 2, 824 (1) : 1
+4 2 1 2 2 3, 825 (1) : 1
+4 2 1 2 3 1, 826 (1) : 1
+4 2 1 2 3 2, 827 (1) : 1
+4 2 1 2 3 3, 828 (1) : 1
+4 2 1 3 1 1, 829 (1) : 1
+4 2 1 3 1 2, 830 (1) : 1
+4 2 1 3 1 3, 831 (1) : 1
+4 2 1 3 2 1, 832 (1) : 1
+4 2 1 3 2 2, 833 (1) : 1
+4 2 1 3 2 3, 834 (1) : 1
+4 2 1 3 3 1, 835 (1) : 1
+4 2 1 3 3 2, 836 (1) : 1
+4 2 1 3 3 3, 837 (1) : 1
+4 2 2 1 1 1, 838 (1) : 1
+4 2 2 1 1 2, 839 (1) : 1
+4 2 2 1 1 3, 840 (1) : 1
+4 2 2 1 2 1, 841 (1) : 1
+4 2 2 1 2 2, 842 (1) : 1
+4 2 2 1 2 3, 843 (1) : 1
+4 2 2 1 3 1, 844 (1) : 1
+4 2 2 1 3 2, 845 (1) : 1
+4 2 2 1 3 3, 846 (1) : 1
+4 2 2 2 1 1, 847 (1) : 1
+4 2 2 2 1 2, 848 (1) : 1
+4 2 2 2 1 3, 849 (1) : 1
+4 2 2 2 2 1, 850 (1) : 1
+4 2 2 2 2 2, 851 (1) : 1
+4 2 2 2 2 3, 852 (1) : 1
+4 2 2 2 3 1, 853 (1) : 1
+4 2 2 2 3 2, 854 (1) : 1
+4 2 2 2 3 3, 855 (1) : 1
+4 2 2 3 1 1, 856 (1) : 1
+4 2 2 3 1 2, 857 (1) : 1
+4 2 2 3 1 3, 858 (1) : 1
+4 2 2 3 2 1, 859 (1) : 1
+4 2 2 3 2 2, 860 (1) : 1
+4 2 2 3 2 3, 861 (1) : 1
+4 2 2 3 3 1, 862 (1) : 1
+4 2 2 3 3 2, 863 (1) : 1
+4 2 2 3 3 3, 864 (1) : 1
+4 2 3 1 1 1, 865 (1) : 1
+4 2 3 1 1 2, 866 (1) : 1
+4 2 3 1 1 3, 867 (1) : 1
+4 2 3 1 2 1, 868 (1) : 1
+4 2 3 1 2 2, 869 (1) : 1
+4 2 3 1 2 3, 870 (1) : 1
+4 2 3 1 3 1, 871 (1) : 1
+4 2 3 1 3 2, 872 (1) : 1
+4 2 3 1 3 3, 873 (1) : 1
+4 2 3 2 1 1, 874 (1) : 1
+4 2 3 2 1 2, 875 (1) : 1
+4 2 3 2 1 3, 876 (1) : 1
+4 2 3 2 2 1, 877 (1) : 1
+4 2 3 2 2 2, 878 (1) : 1
+4 2 3 2 2 3, 879 (1) : 1
+4 2 3 2 3 1, 880 (1) : 1
+4 2 3 2 3 2, 881 (1) : 1
+4 2 3 2 3 3, 882 (1) : 1
+4 2 3 3 1 1, 883 (1) : 1
+4 2 3 3 1 2, 884 (1) : 1
+4 2 3 3 1 3, 885 (1) : 1
+4 2 3 3 2 1, 886 (1) : 1
+4 2 3 3 2 2, 887 (1) : 1
+4 2 3 3 2 3, 888 (1) : 1
+4 2 3 3 3 1, 889 (1) : 1
+4 2 3 3 3 2, 890 (1) : 1
+4 2 3 3 3 3, 891 (1) : 1
+4 3 1 1 1 1, 892 (1) : 1
+4 3 1 1 1 2, 893 (1) : 1
+4 3 1 1 1 3, 894 (1) : 1
+4 3 1 1 2 1, 895 (1) : 1
+4 3 1 1 2 2, 896 (1) : 1
+4 3 1 1 2 3, 897 (1) : 1
+4 3 1 1 3 1, 898 (1) : 1
+4 3 1 1 3 2, 899 (1) : 1
+4 3 1 1 3 3, 900 (1) : 1
+4 3 1 2 1 1, 901 (1) : 1
+4 3 1 2 1 2, 902 (1) : 1
+4 3 1 2 1 3, 903 (1) : 1
+4 3 1 2 2 1, 904 (1) : 1
+4 3 1 2 2 2, 905 (1) : 1
+4 3 1 2 2 3, 906 (1) : 1
+4 3 1 2 3 1, 907 (1) : 1
+4 3 1 2 3 2, 908 (1) : 1
+4 3 1 2 3 3, 909 (1) : 1
+4 3 1 3 1 1, 910 (1) : 1
+4 3 1 3 1 2, 911 (1) : 1
+4 3 1 3 1 3, 912 (1) : 1
+4 3 1 3 2 1, 913 (1) : 1
+4 3 1 3 2 2, 914 (1) : 1
+4 3 1 3 2 3, 915 (1) : 1
+4 3 1 3 3 1, 916 (1) : 1
+4 3 1 3 3 2, 917 (1) : 1
+4 3 1 3 3 3, 918 (1) : 1
+4 3 2 1 1 1, 919 (1) : 1
+4 3 2 1 1 2, 920 (1) : 1
+4 3 2 1 1 3, 921 (1) : 1
+4 3 2 1 2 1, 922 (1) : 1
+4 3 2 1 2 2, 923 (1) : 1
+4 3 2 1 2 3, 924 (1) : 1
+4 3 2 1 3 1, 925 (1) : 1
+4 3 2 1 3 2, 926 (1) : 1
+4 3 2 1 3 3, 927 (1) : 1
+4 3 2 2 1 1, 928 (1) : 1
+4 3 2 2 1 2, 929 (1) : 1
+4 3 2 2 1 3, 930 (1) : 1
+4 3 2 2 2 1, 931 (1) : 1
+4 3 2 2 2 2, 932 (1) : 1
+4 3 2 2 2 3, 933 (1) : 1
+4 3 2 2 3 1, 934 (1) : 1
+4 3 2 2 3 2, 935 (1) : 1
+4 3 2 2 3 3, 936 (1) : 1
+4 3 2 3 1 1, 937 (1) : 1
+4 3 2 3 1 2, 938 (1) : 1
+4 3 2 3 1 3, 939 (1) : 1
+4 3 2 3 2 1, 940 (1) : 1
+4 3 2 3 2 2, 941 (1) : 1
+4 3 2 3 2 3, 942 (1) : 1
+4 3 2 3 3 1, 943 (1) : 1
+4 3 2 3 3 2, 944 (1) : 1
+4 3 2 3 3 3, 945 (1) : 1
+4 3 3 1 1 1, 946 (1) : 1
+4 3 3 1 1 2, 947 (1) : 1
+4 3 3 1 1 3, 948 (1) : 1
+4 3 3 1 2 1, 949 (1) : 1
+4 3 3 1 2 2, 950 (1) : 1
+4 3 3 1 2 3, 951 (1) : 1
+4 3 3 1 3 1, 952 (1) : 1
+4 3 3 1 3 2, 953 (1) : 1
+4 3 3 1 3 3, 954 (1) : 1
+4 3 3 2 1 1, 955 (1) : 1
+4 3 3 2 1 2, 956 (1) : 1
+4 3 3 2 1 3, 957 (1) : 1
+4 3 3 2 2 1, 958 (1) : 1
+4 3 3 2 2 2, 959 (1) : 1
+4 3 3 2 2 3, 960 (1) : 1
+4 3 3 2 3 1, 961 (1) : 1
+4 3 3 2 3 2, 962 (1) : 1
+4 3 3 2 3 3, 963 (1) : 1
+4 3 3 3 1 1, 964 (1) : 1
+4 3 3 3 1 2, 965 (1) : 1
+4 3 3 3 1 3, 966 (1) : 1
+4 3 3 3 2 1, 967 (1) : 1
+4 3 3 3 2 2, 968 (1) : 1
+4 3 3 3 2 3, 969 (1) : 1
+4 3 3 3 3 1, 970 (1) : 1
+4 3 3 3 3 2, 971 (1) : 1
+4 3 3 3 3 3, 972 (1) : 1
