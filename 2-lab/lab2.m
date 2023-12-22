@@ -1,0 +1,59 @@
+clear;clc;
+
+x = [0:0.5:50];
+
+yA1 = ones([1, 30]).*0.33;
+yA1 = [yA1, (6 - x(31:60)) ./ 3.* 0.33];
+yA1 = [yA1, zeros([1, 41])];
+
+yA2 = zeros([1, 20]);
+yA2 = [yA2, (x(21:50) - 2 ) ./ 3];
+yA2 = [yA2, (8 - x(51:80)) ./ 3];
+yA2 = [yA2, zeros([1, 21])];
+
+yA3 = zeros([1, 101]);
+
+yS1 = ones([1, 30]) .* 0.33;
+yS1 = [yS1, (7 - x(31:70)) ./ 4.* 0.33] ;
+yS1 = [yS1, zeros([1, 31])] .* 0.33;
+
+yS2 = zeros([1, 20]) .* 0.66;
+yS2 = [yS2, (x(21:50) - 2 ) ./ 3 .* 0.66];
+yS2 = [yS2, (8 - x(51:80)) ./ 3 .* 0.66];
+yS2 = [yS2, zeros([1, 21])];
+
+yS3 = zeros([1, 50]) .* 0.33;
+yS3 = [yS3, (x(51:80) - 5 ) ./ 3.* 0.33];
+yS3 = [yS3, ones([1, 21]) .* 0.33];
+
+yV1 = zeros([1, 101]);
+yV2 = zeros([1, 101]);
+
+yV3 = ones([1, 50]);
+yV3 = [yV3, (x(51:75) - 4) ./ 2];
+yV3 = [yV3, zeros([1, 26])];
+
+size(yA1)
+size(yA2)
+size(yA3)
+size(yS1)
+size(yS2)
+size(yS3)
+size(yV1)
+size(yV2)
+size(yV3)
+
+A = [yA1; yA2; yA3; fliplr(yS1); fliplr(yS2); fliplr(yS3); yV1; yV2; yV3];
+y = max(A);
+plot(x,y,'LineWidth', 4);
+grid on;
+hold on;
+legend;
+
+sum1 = 0;
+sum2 = 0;
+for (i=1:101)
+    sum1 = sum1 + x(i) * y(i);
+    sum2 = sum2 + y(i);
+end
+c = sum1 / sum2
